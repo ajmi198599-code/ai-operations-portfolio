@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+.env*
+.vercel
+.npm-cache
+.tools
+.next-dev.log
+.next-dev.err
+artifacts
