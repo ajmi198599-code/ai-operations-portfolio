@@ -1,0 +1,3289 @@
+{
+  "date": "2026-11-04",
+  "scope": "Coursera Professional Certificates; official directory and official announcements supplemented with additional indexed items",
+  "total": 164,
+  "providers": 39,
+  "limitations": "Not exhaustive of live paginated search; titles/provider listed by official Coursera sources or linked secondary source; role matching is analytical, not guaranteed employment.",
+  "records": [
+    {
+      "name": "AAPC Medical Biller",
+      "issuer": "AAPC",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Finance, Bookkeeping & Other",
+      "skills": "Medical billing workflow, claims and reimbursement concepts",
+      "roles": "Medical biller (subject to local standards)",
+      "project": "Domain-specific case study and procedure checklist",
+      "link": "https://www.coursera.org/professional-certificates/aapc-medical-biller",
+      "linkkind": "Direct official program page",
+      "application": "Audit a claim processing workflow",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-aligned learning; licensing, regional compliance, or academic qualifications may apply.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "Adobe Content Creator: Launching Your Creative Career",
+      "issuer": "Adobe",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "UX, Creative & Content",
+      "skills": "Creative production, content planning and channel presentation",
+      "roles": "Content creator; social media content producer",
+      "project": "Interactive prototype and case study with before/after usability findings",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Create a repeatable short-form campaign asset pack",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Adobe Graphic Designer: Design that Demands Attention",
+      "issuer": "Adobe",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "UX, Creative & Content",
+      "skills": "Visual identity, creative design and professional visual assets",
+      "roles": "Graphic designer; visual designer",
+      "project": "Interactive prototype and case study with before/after usability findings",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Create a visual brand system and polished campaign graphics",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Adobe Marketing Specialist",
+      "issuer": "Adobe",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "Digital marketing campaign creation and content workflows",
+      "roles": "Marketing specialist; creative marketer",
+      "project": "Measurable campaign and conversion funnel report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Plan and report a cross-channel campaign",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "ADP AIRS Entry-Level Recruiter",
+      "issuer": "ADP",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "HR, Service & Admin",
+      "skills": "Recruitment workflow, sourcing, candidate screening and hiring coordination",
+      "roles": "Recruiter; talent acquisition coordinator",
+      "project": "Employee onboarding process map and service KPI report",
+      "link": "https://www.coursera.org/professional-certificates/adp-airs-entry-level-recruiter",
+      "linkkind": "Direct official program page",
+      "application": "Design recruitment funnel and interview scorecard",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "ADP Entry-Level Compensation and Benefits Analyst",
+      "issuer": "ADP",
+      "months": "2 months",
+      "status": "catalog",
+      "source": [
+        "additional"
+      ],
+      "track": "HR, Service & Admin",
+      "skills": "Job analysis; compensation structures; benefits; total rewards; base pay and variable pay; Excel; HR data analysis and communication",
+      "roles": "Compensation analyst assistant; benefits coordinator; HR operations associate",
+      "project": "Analyze pay bands and create a compensation/benefits design case study",
+      "application": "Analyze pay bands and create a compensation/benefits design case study",
+      "link": "https://www.coursera.org/professional-certificates/adp-compensation-benefits-analyst/",
+      "linkkind": "Direct official program page",
+      "evidence": "Direct official program page checked",
+      "legacy": false,
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "ADP Entry-Level Payroll Specialist",
+      "issuer": "ADP",
+      "months": "2",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "HR, Service & Admin",
+      "skills": "Payroll calculations, payroll processes and record reconciliation",
+      "roles": "Payroll specialist; HR operations associate",
+      "project": "Employee onboarding process map and service KPI report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Reconcile a simulated payroll run",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Airbus Supply Chain Specialist",
+      "issuer": "Airbus",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Supply Chain & Operations",
+      "skills": "Logistics, procurement, forecasting and sustainable supply planning",
+      "roles": "Supply chain coordinator; procurement analyst",
+      "project": "Inventory reorder and demand forecasting dashboard",
+      "link": "https://blog.coursera.org/coursera-launches-five-new-professional-certificates-and-expands-ai-and-human-skills-learning/",
+      "linkkind": "Coursera announcement",
+      "application": "Model replenishment planning and supply risk",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Akamai Customer Consulting and Support",
+      "issuer": "Akamai",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Technical customer discovery; troubleshooting; product support; web/network performance",
+      "roles": "Solutions support analyst; customer solutions engineer trainee",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Write a customer escalation report for a simulated edge-performance issue",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Akamai Network Engineering",
+      "issuer": "Akamai",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Network protocols; TCP/IP; DNS; routing; edge networks; troubleshooting and security",
+      "roles": "Network technician; junior network engineer",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Produce a network topology, diagnostic runbook and fault investigation",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Amazon Junior Software Developer",
+      "issuer": "Amazon",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Software engineering fundamentals, programming, debugging and version control",
+      "roles": "Junior software developer",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/professional-certificates/amazon-junior-software-developer",
+      "linkkind": "Direct official program page",
+      "application": "Deliver a tested software component and GitHub documentation",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Arizona State University TESOL",
+      "issuer": "Arizona State University",
+      "months": "—",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Finance, Bookkeeping & Other",
+      "skills": "English language teaching methods, lesson planning and learner assessment",
+      "roles": "English language instructor pathway",
+      "project": "Domain-specific case study and procedure checklist",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Design and deliver an assessed teaching lesson",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; licensing, regional compliance, or academic qualifications may apply.",
+      "provider_type": "University"
+    },
+    {
+      "name": "Amazon Supply Chain Specialist",
+      "issuer": "AWS",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Supply Chain & Operations",
+      "skills": "Inventory, procurement, transportation and demand planning in AWS context",
+      "roles": "Supply chain specialist; logistics planner",
+      "project": "Inventory reorder and demand forecasting dashboard",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Track inventory exceptions and delivery performance",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "AWS Cloud Solutions Architect",
+      "issuer": "AWS",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "AWS solution patterns, cloud architecture and design decisions",
+      "roles": "Cloud architect pathway; cloud engineer",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Design a resilient reference architecture with cost tradeoffs",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "AWS Cloud Technology Consultant",
+      "issuer": "AWS",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "AWS cloud services, requirements discovery, solution consulting",
+      "roles": "Cloud support consultant; technology consultant",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Map customer requirements to AWS architecture",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "AWS Generative AI and AI Agents with Amazon Bedrock",
+      "issuer": "AWS",
+      "months": "—",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "AWS Bedrock; foundation models; GenAI solutions; AI agents; AWS workflows",
+      "roles": "Cloud GenAI developer (with AWS foundations)",
+      "project": "Bedrock-powered AI assistant with tool integrations",
+      "link": "https://www.coursera.org/professional-certificates/aws-generative-ai-developers",
+      "linkkind": "Direct official program page",
+      "application": "Bedrock-powered AI assistant with tool integrations",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "AWS Generative AI Applications",
+      "issuer": "AWS",
+      "months": "4 weeks",
+      "status": "catalog",
+      "source": [
+        "additional"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "AI fundamentals; AWS AI services; Amazon Bedrock, PartyRock and Amazon Q; prompt engineering; Bedrock Guardrails; architecture, cost and responsible AI",
+      "roles": "AI applications associate; business automation specialist; cloud AI solutions practitioner (with additional technical training)",
+      "project": "Prototype an AWS AI workflow and document guardrails and solution cost",
+      "application": "Prototype an AWS AI workflow and document guardrails and solution cost",
+      "link": "https://www.coursera.org/professional-certificates/aws-generative-ai-applications",
+      "linkkind": "Direct official program page",
+      "evidence": "Direct official program page checked",
+      "legacy": false,
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "AWS Tech Sales Representative",
+      "issuer": "AWS",
+      "months": "—",
+      "status": "coming soon",
+      "source": [
+        "additional"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "AWS solution discovery; cloud value proposition; pricing; sales forecasting; negotiation",
+      "roles": "Cloud sales associate; tech sales representative",
+      "project": "Measurable campaign and conversion funnel report",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Qualify a cloud opportunity and produce a proposal and cost estimate",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Coming soon at the time of the official announcement. Not confirmed enrollable.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "CertNexus Certified Artificial Intelligence Practitioner",
+      "issuer": "CertNexus",
+      "months": "—",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Risk-aware responsible technology, technical assessment and related framework",
+      "roles": "Technical compliance or practitioner pathway",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Produce risk assessment or technical skills lab",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "CertNexus Certified Data Science Practitioner",
+      "issuer": "CertNexus",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Risk-aware responsible technology, technical assessment and related framework",
+      "roles": "Technical compliance or practitioner pathway",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Produce risk assessment or technical skills lab",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "CertNexus Certified Ethical Emerging Technologist",
+      "issuer": "CertNexus",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Finance, Bookkeeping & Other",
+      "skills": "Risk-aware responsible technology, technical assessment and related framework",
+      "roles": "Technical compliance or practitioner pathway",
+      "project": "Domain-specific case study and procedure checklist",
+      "link": "https://www.coursera.org/professional-certificates/certified-ethical-emerging-technologist",
+      "linkkind": "Direct official program page",
+      "application": "Produce risk assessment or technical skills lab",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "Canva Essentials",
+      "issuer": "Coursera",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "UX, Creative & Content",
+      "skills": "Canva visual design; templates; brand kits; AI-assisted assets; presentation and content output",
+      "roles": "Content creator; marketing design associate",
+      "project": "Interactive prototype and case study with before/after usability findings",
+      "link": "https://blog.coursera.org/coursera-launches-five-new-professional-certificates-and-expands-ai-and-human-skills-learning/",
+      "linkkind": "Coursera announcement",
+      "application": "Build a consistent multi-channel campaign design kit",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Figma, Sketch & Miro for UX Design",
+      "issuer": "Coursera",
+      "months": "—",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "UX, Creative & Content",
+      "skills": "Figma, Sketch, Miro; wireframing; UI/UX workshops; prototypes and usability studies",
+      "roles": "Junior UX designer; design assistant",
+      "project": "Interactive prototype and case study with before/after usability findings",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Develop a collaborative design board and interactive high-fidelity prototype",
+      "legacy": true,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Legacy / deprecated listing. Check whether enrollment is available.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Human-AI Collaboration: Agents, Judgment & Workflows",
+      "issuer": "Coursera",
+      "months": "3",
+      "status": "verified",
+      "source": [
+        "additional"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "Human oversight; agent workflows; decision boundaries; collaboration and quality assessment",
+      "roles": "AI adoption coordinator; workflow designer",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://www.coursera.org/professional-certificates/human-ai-collaboration-agents-judgment-workflows",
+      "linkkind": "Direct course page",
+      "application": "Design a human-in-the-loop workflow and evaluation rubric",
+      "legacy": false,
+      "evidence": "Individually checked Coursera course page",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "CVS Health Call Center Customer Service",
+      "issuer": "CVS Health",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "HR, Service & Admin",
+      "skills": "Call handling; customer empathy; issue resolution; service quality; healthcare service context",
+      "roles": "Call center representative; customer support agent",
+      "project": "Employee onboarding process map and service KPI report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Design a call-quality scorecard and complaint-resolution scenario",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "CVS Health Retail Customer Service",
+      "issuer": "CVS Health",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "HR, Service & Admin",
+      "skills": "Retail service; POS workflow; product guidance; handling escalations; inventory touchpoints",
+      "roles": "Retail customer service associate; store associate",
+      "project": "Employee onboarding process map and service KPI report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Create a retail service standard and transaction case simulation",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "DeepLearning.AI Data Analytics",
+      "issuer": "DeepLearning.AI",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Data analysis workflow, modern AI-enabled analysis tools, interpretation",
+      "roles": "Junior data analyst; analytical operations associate",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Produce reproducible analysis, validation, and business interpretation",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "DeepLearning.AI Data Engineering",
+      "issuer": "DeepLearning.AI",
+      "months": "—",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Data systems; pipelines; data architecture; data storage; operational reliability",
+      "roles": "Data engineer pathway; ETL developer",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Implement and test a scheduled data ingestion pipeline",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "DeepLearning.AI TensorFlow Developer",
+      "issuer": "DeepLearning.AI",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "TensorFlow; Keras; neural networks; computer vision; text processing and model training",
+      "roles": "TensorFlow practitioner; ML developer pathway",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Train and evaluate a TensorFlow image or text classifier",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Generative AI for Software Development",
+      "issuer": "DeepLearning.AI",
+      "months": "—",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "LLM-assisted coding; prompt patterns; testing; debugging; refactoring and documentation",
+      "roles": "Software developer using GenAI; developer productivity specialist",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Use AI to implement, test and review a small application feature",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "PyTorch for Deep Learning",
+      "issuer": "DeepLearning.AI",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "PyTorch tensors; training loops; deep-learning models; vision/NLP; deployment basics",
+      "roles": "ML developer pathway; deep learning engineer trainee",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://blog.coursera.org/coursera-launches-five-new-professional-certificates-and-expands-ai-and-human-skills-learning/",
+      "linkkind": "Coursera announcement",
+      "application": "Train, evaluate and package a PyTorch model",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Information Security Analyst",
+      "issuer": "EC-Council",
+      "months": "—",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Security & Cybersecurity",
+      "skills": "Security controls; network defense; threats; vulnerabilities; basic governance and incident handling",
+      "roles": "Information security analyst trainee; junior SOC analyst",
+      "project": "Security incident response playbook or SOC case lab",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Create an incident playbook and security assessment summary",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "Epic Games Game Design",
+      "issuer": "Epic Games",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Game design principles; mechanics; prototyping; iteration in Unreal Engine",
+      "roles": "Junior game designer; gameplay design assistant",
+      "project": "Playable game mechanic and design document",
+      "link": "https://www.coursera.org/professional-certificates/epic-games-game-design-professional-certificate",
+      "linkkind": "Direct course page",
+      "application": "Playable game mechanic and design document",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Fractal Data Science",
+      "issuer": "Fractal Analytics",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Data preparation, statistical reasoning, machine learning, business applications",
+      "roles": "Junior data scientist; quantitative analyst",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Train and compare predictive models on a business dataset",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "GitHub Building Agentic AI Apps with GitHub Copilot SDK",
+      "issuer": "GitHub",
+      "months": "—",
+      "status": "coming soon",
+      "source": [
+        "additional"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "GitHub Copilot SDK; agent architecture; tools; testing; observability; security and deployment",
+      "roles": "Agentic application developer; AI software engineer pathway",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Build a secure tool-using agent with tests and monitoring",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Coming soon at the time of the official announcement. Not confirmed enrollable.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Goodwill Career Coach and Navigator",
+      "issuer": "Goodwill",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "HR, Service & Admin",
+      "skills": "Career coaching; barrier assessment; interviewing; employment resources; client support",
+      "roles": "Career navigator; employment services coordinator",
+      "project": "Employee onboarding process map and service KPI report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Create an individualized career action plan and referral tracker",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "Google Advanced Data Analytics",
+      "issuer": "Google",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Python, regression, statistics, hypothesis testing, predictive modeling",
+      "roles": "Junior data scientist; advanced data analyst",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Test a demand hypothesis and explain a regression forecast",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Google AI",
+      "issuer": "Google",
+      "months": "8 hours",
+      "status": "catalog",
+      "source": [
+        "additional"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "Prompt design; responsible AI; brainstorming and research; writing and content creation; data analysis; Gemini and Google AI Studio; vibe coding and basic app deployment",
+      "roles": "Cross-functional AI-enabled roles; business operations associate; content or research specialist (AI is a complementary skill, not a standalone license)",
+      "project": "Produce an AI-assisted report, a data analysis, communication assets, and a functional small app",
+      "application": "Produce an AI-assisted report, a data analysis, communication assets, and a functional small app",
+      "link": "https://www.coursera.org/professional-certificates/google-ai",
+      "linkkind": "Direct official program page",
+      "evidence": "Direct official program page checked",
+      "legacy": false,
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Google Business Intelligence",
+      "issuer": "Google",
+      "months": "2",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Data modeling; ETL pipelines; SQL; BI dashboards; business stakeholder requirements",
+      "roles": "BI analyst; reporting analyst",
+      "project": "Executive BI dashboard with documented metric definitions",
+      "link": "https://www.coursera.org/professional-certificates/google-business-intelligence",
+      "linkkind": "Direct official program page",
+      "application": "Executive BI dashboard with documented metric definitions",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Google Cybersecurity",
+      "issuer": "Google",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Security & Cybersecurity",
+      "skills": "Risk analysis; Linux; SQL; Python; SIEM; network security; detection and incident response",
+      "roles": "Junior cybersecurity analyst; SOC analyst trainee",
+      "project": "Security incident response playbook or SOC case lab",
+      "link": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+      "linkkind": "Direct official program page",
+      "application": "Analyze mock logs and propose alert triage and mitigation steps",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Google Data Analytics",
+      "issuer": "Google",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Spreadsheets, SQL, data cleaning, visual analytics, data storytelling",
+      "roles": "Junior data analyst; operations reporting analyst",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Clean messy records and summarize changes in conversion or sales",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Google Digital Marketing & E-commerce",
+      "issuer": "Google",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "SEO, paid advertising, email marketing, e-commerce and analytics",
+      "roles": "Digital marketer; ecommerce coordinator",
+      "project": "Measurable campaign and conversion funnel report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Improve a product funnel using measured experiments",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Google IT Automation with Python",
+      "issuer": "Google",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Python, Git, scripting, task automation and configuration management",
+      "roles": "IT automation specialist; junior sysadmin",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Automate repeated system checks and log parsing",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Google IT Support",
+      "issuer": "Google",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Hardware, operating systems, networks, troubleshooting and IT security",
+      "roles": "IT support specialist; help desk technician",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Diagnose and resolve end-user connectivity incidents",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Google Project Management",
+      "issuer": "Google",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "Scope, schedule, budget, risk, Agile and stakeholder communication",
+      "roles": "Project coordinator; assistant project manager",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Deliver an end-to-end project plan and risk register",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Google UX Design",
+      "issuer": "Google",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "UX, Creative & Content",
+      "skills": "User research; personas; journey maps; wireframes; Figma; prototypes; usability tests",
+      "roles": "Junior UX designer; UX researcher assistant",
+      "project": "Mobile app redesign with documented usability studies",
+      "link": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "linkkind": "Direct official program page",
+      "application": "Mobile app redesign with documented usability studies",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Google Cloud AI Agents: From Foundation to Enterprise Scale",
+      "issuer": "Google Cloud",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "Gemini Enterprise; Google Cloud AI agents; tool orchestration; deployment; monitoring",
+      "roles": "Cloud AI agent developer; automation engineer",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Build and monitor an enterprise agent workflow",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Google Cloud Cybersecurity",
+      "issuer": "Google Cloud",
+      "months": "2",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Security & Cybersecurity",
+      "skills": "Google Cloud IAM; security monitoring; governance; cloud threats; security controls",
+      "roles": "Cloud security associate; SOC analyst trainee",
+      "project": "Security incident response playbook or SOC case lab",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Audit cloud permissions and document remediation priorities",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Google Cloud Data Analytics",
+      "issuer": "Google Cloud",
+      "months": "2",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Cloud-based data pipelines and analytics, data preparation, cloud reporting",
+      "roles": "Cloud data analyst; cloud reporting associate",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Prepare data for a scalable cloud analytics report",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Google Cloud Digital Leader Training",
+      "issuer": "Google Cloud",
+      "months": "1",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Cloud value proposition, digital strategy and Google Cloud products",
+      "roles": "Cloud-literate project coordinator; digital transformation associate",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Write a cloud adoption business case",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Google Workspace Administrator",
+      "issuer": "Google Cloud",
+      "months": "2",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Account administration, Google Workspace deployment and access controls",
+      "roles": "Google Workspace administrator",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Design an account lifecycle and access policy",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Preparing for Google Cloud Certification: Cloud Architect",
+      "issuer": "Google Cloud",
+      "months": "1.5",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Google Cloud engineering specialty and targeted exam-domain preparation",
+      "roles": "Google Cloud engineer pathway",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a practice lab aligned to exam domain",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Exam preparation is not the same credential as passing the independent vendor exam.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Preparing for Google Cloud Certification: Cloud Data Engineer",
+      "issuer": "Google Cloud",
+      "months": "1.5",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Google Cloud engineering specialty and targeted exam-domain preparation",
+      "roles": "Google Cloud engineer pathway",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a practice lab aligned to exam domain",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Exam preparation is not the same credential as passing the independent vendor exam.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Preparing for Google Cloud Certification: Cloud Developer",
+      "issuer": "Google Cloud",
+      "months": "2",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Google Cloud engineering specialty and targeted exam-domain preparation",
+      "roles": "Google Cloud engineer pathway",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a practice lab aligned to exam domain",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Exam preparation is not the same credential as passing the independent vendor exam.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Preparing for Google Cloud Certification: Cloud DevOps Engineer",
+      "issuer": "Google Cloud",
+      "months": "1.5",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Google Cloud engineering specialty and targeted exam-domain preparation",
+      "roles": "Google Cloud engineer pathway",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a practice lab aligned to exam domain",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Exam preparation is not the same credential as passing the independent vendor exam.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Preparing for Google Cloud Certification: Cloud Engineer",
+      "issuer": "Google Cloud",
+      "months": "1.5",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Google Cloud engineering specialty and targeted exam-domain preparation",
+      "roles": "Google Cloud engineer pathway",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a practice lab aligned to exam domain",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Exam preparation is not the same credential as passing the independent vendor exam.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Preparing for Google Cloud Certification: Cloud Network Engineer",
+      "issuer": "Google Cloud",
+      "months": "1.5",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Google Cloud engineering specialty and targeted exam-domain preparation",
+      "roles": "Google Cloud engineer pathway",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a practice lab aligned to exam domain",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Exam preparation is not the same credential as passing the independent vendor exam.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Preparing for Google Cloud Certification: Cloud Security Engineer",
+      "issuer": "Google Cloud",
+      "months": "1.5",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Security & Cybersecurity",
+      "skills": "Google Cloud engineering specialty and targeted exam-domain preparation",
+      "roles": "Google Cloud engineer pathway",
+      "project": "Security incident response playbook or SOC case lab",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a practice lab aligned to exam domain",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Exam preparation is not the same credential as passing the independent vendor exam.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Preparing for Google Cloud Certification: Machine Learning Engineer",
+      "issuer": "Google Cloud",
+      "months": "7",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "Google Cloud engineering specialty and targeted exam-domain preparation",
+      "roles": "Google Cloud engineer pathway",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a practice lab aligned to exam domain",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Exam preparation is not the same credential as passing the independent vendor exam.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "HRCI Associate Professional in Human Resources-International",
+      "issuer": "HRCI",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "HR, Service & Admin",
+      "skills": "International HR fundamentals; hiring; compliance; onboarding; employee relations; aPHRi domains",
+      "roles": "HR assistant; HR operations associate; aPHRi exam candidate",
+      "project": "Employee onboarding process map and service KPI report",
+      "link": "https://blog.coursera.org/coursera-expands-micro-credential-catalog-with-new-programs-from-google-deepmind-meta-microsoft-and-more/",
+      "linkkind": "Coursera announcement",
+      "application": "Draft an international HR lifecycle and policy checklist",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-aligned learning; licensing, regional compliance, or academic qualifications may apply.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "HRCI Human Resource Associate",
+      "issuer": "HRCI",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "HR, Service & Admin",
+      "skills": "HR policies, hiring, onboarding and talent support",
+      "roles": "HR associate; HR operations assistant",
+      "project": "Employee onboarding process map and service KPI report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Design an onboarding compliance checklist",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; licensing, regional compliance, or academic qualifications may apply.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "IBM AI Developer",
+      "issuer": "IBM",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "Python, app development, LLM applications and responsible AI",
+      "roles": "Junior AI-enabled software developer",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Ship an AI-enhanced app with backend and evaluation",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM AI Engineering",
+      "issuer": "IBM",
+      "months": "3-4",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "Neural networks, deep learning and practical AI engineering",
+      "roles": "Junior AI engineer with strong coding foundations",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Prototype and evaluate a neural network system",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM and ISC2 Cybersecurity Specialist",
+      "issuer": "IBM",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Security & Cybersecurity",
+      "skills": "Security principles; threat detection; incident response; governance; ISC2-aligned foundational domains",
+      "roles": "SOC analyst trainee; security operations associate",
+      "project": "Security incident response playbook or SOC case lab",
+      "link": "https://www.coursera.org/professional-certificates/ibm-isc2-cybersecurity-specialist",
+      "linkkind": "Direct official program page",
+      "application": "Triage incidents and prepare a security control gap register",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Applied DevOps Engineering",
+      "issuer": "IBM",
+      "months": "—",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "DevOps tooling, deployment automation and monitoring",
+      "roles": "DevOps engineering practitioner",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Automate a deployment pipeline and observe failures",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Back-End Development",
+      "issuer": "IBM",
+      "months": "12",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Backend application services, database logic and software testing",
+      "roles": "Junior backend developer",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Deploy a service with validated endpoints",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Building and Managing Agentic Teams",
+      "issuer": "IBM",
+      "months": "3",
+      "status": "verified",
+      "source": [
+        "additional"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "Human-agent task allocation; AI governance; handoff design; watsonx Orchestrate; supervised agent workflows",
+      "roles": "AI operations/program lead (requires leadership experience)",
+      "project": "Agentic team topology and governance operating model",
+      "link": "https://www.coursera.org/professional-certificates/ibm-building-and-managing-agentic-teams",
+      "linkkind": "Direct course page",
+      "application": "Agentic team topology and governance operating model",
+      "legacy": false,
+      "evidence": "Individually checked Coursera course page",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Cybersecurity Analyst",
+      "issuer": "IBM",
+      "months": "8",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Security & Cybersecurity",
+      "skills": "Network fundamentals; Linux; security threats; incident response; vulnerability scanning; security monitoring",
+      "roles": "Junior cybersecurity analyst; SOC analyst trainee",
+      "project": "Security incident response playbook or SOC case lab",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Conduct a simulated threat-hunting case and post-incident review",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Data Analyst",
+      "issuer": "IBM",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Excel, Python, pandas, SQL, Jupyter, visualization and Cognos",
+      "roles": "Junior data analyst; Python data analyst",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Write reproducible Python/SQL analysis and deliver clear visuals",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Data Analytics with Excel and R",
+      "issuer": "IBM",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Excel, R programming, data wrangling, visualization",
+      "roles": "Junior data analyst; R reporting analyst",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Analyze trends and outcomes with spreadsheet and R workflows",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Data Engineering",
+      "issuer": "IBM",
+      "months": "7",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Python; SQL; relational and NoSQL systems; ETL; data warehouses; Spark and orchestration",
+      "roles": "Junior data engineer; ETL developer",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/professional-certificates/ibm-data-engineer",
+      "linkkind": "Direct official program page",
+      "application": "Build a reproducible extraction-to-warehouse data pipeline",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Data Science",
+      "issuer": "IBM",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Python, notebooks, SQL, visualization, statistical / machine-learning models",
+      "roles": "Entry data scientist; junior ML/data analyst",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build and evaluate a predictive data-science notebook",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Data Warehouse Engineer",
+      "issuer": "IBM",
+      "months": "8",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Data modeling; SQL; warehousing; ETL/ELT; dimensional models; query optimization",
+      "roles": "Junior warehouse developer; BI data engineer",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a dimensional warehouse and documented BI data pipeline",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM DevOps and Software Engineering",
+      "issuer": "IBM",
+      "months": "9",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Git, continuous integration, containers and software deployment",
+      "roles": "Junior DevOps engineer; software engineering associate",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Implement CI/CD for a small application",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Front-End Developer",
+      "issuer": "IBM",
+      "months": "9",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "HTML, CSS, JavaScript; responsive UI; accessibility; testing; React and frontend deployment",
+      "roles": "Junior front-end developer",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Deliver a tested responsive website with accessible navigation",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Full Stack Software Developer",
+      "issuer": "IBM",
+      "months": "9",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Cloud-native full-stack programming, containers and DevOps",
+      "roles": "Full-stack / cloud developer pathway",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Deploy a multi-service portfolio application",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Full-Stack JavaScript Developer",
+      "issuer": "IBM",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "JavaScript frontend/back-end applications and deployment",
+      "roles": "Junior full-stack JavaScript developer",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a full-stack JS application",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Generative AI Engineering",
+      "issuer": "IBM",
+      "months": "—",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "LLM development, prompt engineering, RAG, LangChain and model evaluation",
+      "roles": "GenAI application developer",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a contextual LLM app with measured answer quality",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM IT Support",
+      "issuer": "IBM",
+      "months": "7",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Computer support, software and operating systems, networking and issue resolution",
+      "roles": "IT support technician",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Troubleshoot a simulated end-user workstation problem",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM JavaScript Backend Developer",
+      "issuer": "IBM",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Node.js, APIs, data persistence and backend JavaScript",
+      "roles": "Junior Node.js developer",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Implement API endpoints with tests",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Machine Learning",
+      "issuer": "IBM",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "Supervised and unsupervised modeling, feature selection and evaluation",
+      "roles": "Junior machine learning practitioner",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Compare classification models and assess error cost",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Management Consultant",
+      "issuer": "IBM",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "Business problem diagnosis; finance modeling; process improvement; data visualization and recommendations",
+      "roles": "Junior management consultant; business improvement analyst",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://blog.coursera.org/coursera-expands-micro-credential-catalog-with-new-programs-from-google-deepmind-meta-microsoft-and-more/",
+      "linkkind": "Coursera announcement",
+      "application": "Build a client-ready problem tree, financial model and recommendation deck",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM RAG and Agentic AI",
+      "issuer": "IBM",
+      "months": "2",
+      "status": "verified",
+      "source": [
+        "additional"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "LangChain; vector databases; LangGraph; CrewAI; MCP; tool calling; multi-agent orchestration; capstone",
+      "roles": "AI application developer; agentic AI developer (with software experience)",
+      "project": "End-to-end RAG and tool-using multi-agent system",
+      "link": "https://www.coursera.org/professional-certificates/ibm-rag-and-agentic-ai",
+      "linkkind": "Direct official program page",
+      "application": "End-to-end RAG and tool-using multi-agent system",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Systems and Solutions Architect",
+      "issuer": "IBM",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Business-to-IT architecture; integration patterns; system requirements; scalable design",
+      "roles": "Solutions architect pathway; systems design associate",
+      "project": "Domain-specific case study and procedure checklist",
+      "link": "https://blog.coursera.org/coursera-launches-five-new-professional-certificates-and-expands-ai-and-human-skills-learning/",
+      "linkkind": "Coursera announcement",
+      "application": "Prepare a reference solution architecture and integration constraints",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM z/OS Mainframe Practitioner",
+      "issuer": "IBM",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "IBM Z; z/OS navigation; TSO/ISPF; datasets; JCL fundamentals and enterprise operations",
+      "roles": "Mainframe operations associate; junior z/OS practitioner",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Document and execute a controlled mainframe batch-processing exercise",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Intuit Academy Bookkeeping",
+      "issuer": "Intuit",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Finance, Bookkeeping & Other",
+      "skills": "Accounting entries, transactions, reconciliations and bookkeeping workflow",
+      "roles": "Bookkeeping associate; junior accounts assistant",
+      "project": "Domain-specific case study and procedure checklist",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Produce monthly transaction reconciliation and ledger",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Johns Hopkins Medical Office Manager",
+      "issuer": "Johns Hopkins University",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "HR, Service & Admin",
+      "skills": "Medical office workflow; staffing; scheduling; patient service; quality and operational compliance",
+      "roles": "Clinic office manager pathway; healthcare administration associate",
+      "project": "Domain-specific case study and procedure checklist",
+      "link": "https://www.coursera.org/professional-certificates/johns-hopkins-medical-office-manager",
+      "linkkind": "Direct official program page",
+      "application": "Create a clinic operations improvement plan for scheduling and service quality",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "University"
+    },
+    {
+      "name": "Keller Williams Real Estate Agent",
+      "issuer": "Keller Williams",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "Real-estate transactions; lead generation; negotiations; customer relations; property marketing",
+      "roles": "Real estate sales agent (local license may be mandatory)",
+      "project": "Measurable campaign and conversion funnel report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Develop a property listing and client conversion workflow",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; licensing, regional compliance, or academic qualifications may apply.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "KPMG India Business Analyst",
+      "issuer": "KPMG India",
+      "months": "—",
+      "status": "coming soon",
+      "source": [
+        "additional"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "Process mapping; stakeholder interviews; requirements gathering; acceptance criteria",
+      "roles": "Junior business analyst; requirements coordinator",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Produce an as-is/to-be process analysis and requirements backlog",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Coming soon at the time of the official announcement. Not confirmed enrollable.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM Mainframe Developer",
+      "issuer": "LearnQuest",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "COBOL/mainframe concepts; JCL; enterprise datasets; transaction workflow",
+      "roles": "Mainframe developer trainee; legacy systems associate",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Create and test a basic mainframe batch process",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "Liberty Mutual Insurance Sales Agent",
+      "issuer": "Liberty Mutual",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "Insurance product concepts; needs assessment; policy explanation; prospecting and sales",
+      "roles": "Insurance sales agent (requires local authorization in some jurisdictions)",
+      "project": "Measurable campaign and conversion funnel report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Prepare a needs-based policy comparison and compliant sales conversation",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; licensing, regional compliance, or academic qualifications may apply.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "MathWorks Computer Vision Engineer",
+      "issuer": "MathWorks",
+      "months": "—",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "Computer vision algorithms and MATLAB environment",
+      "roles": "Computer vision engineer pathway",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Prototype visual detection system",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "MathWorks Electrified Systems Design Engineer",
+      "issuer": "MathWorks",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Finance, Bookkeeping & Other",
+      "skills": "MATLAB/Simulink electrified systems modeling and simulation",
+      "roles": "Electrical systems engineer pathway",
+      "project": "Domain-specific case study and procedure checklist",
+      "link": "https://blog.coursera.org/coursera-expands-micro-credential-catalog-with-new-programs-from-google-deepmind-meta-microsoft-and-more/",
+      "linkkind": "Coursera announcement",
+      "application": "Simulate a battery or motor system",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Meta Android Developer",
+      "issuer": "Meta",
+      "months": "8",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Android application development and testing",
+      "roles": "Junior Android developer",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a simple Android application from wireframes",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Meta Back-End Developer",
+      "issuer": "Meta",
+      "months": "8",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Python, APIs, databases, web server and backend testing",
+      "roles": "Junior backend developer",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a tested CRUD API and relational database",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Meta Community Management",
+      "issuer": "Meta",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "Community strategy; moderation; engagement; KPIs; member safety; AI workflows",
+      "roles": "Community manager; community operations associate",
+      "project": "Measurable campaign and conversion funnel report",
+      "link": "https://blog.coursera.org/coursera-expands-micro-credential-catalog-with-new-programs-from-google-deepmind-meta-microsoft-and-more/",
+      "linkkind": "Coursera announcement",
+      "application": "Develop governance rules, content calendar and community engagement scorecard",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Meta Data Analyst",
+      "issuer": "Meta",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "SQL and analytics in a business or marketing context",
+      "roles": "Junior data analyst; growth analyst",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Analyze audience, customer, or business engagement trends",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Meta Database Engineer",
+      "issuer": "Meta",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "SQL, relational models, database design and administration fundamentals",
+      "roles": "Junior database engineer",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Design normalized tables and optimized queries",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Meta Front-End Developer",
+      "issuer": "Meta",
+      "months": "7",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "HTML, CSS, JavaScript, React, responsive interfaces and testing",
+      "roles": "Junior frontend / React developer",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Ship an accessible mobile-first front-end",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Meta iOS Developer",
+      "issuer": "Meta",
+      "months": "8",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "iOS mobile interface development and testing",
+      "roles": "Junior iOS developer",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Prototype an iPhone application with state management",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Meta Marketing Analytics",
+      "issuer": "Meta",
+      "months": "5-6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "Marketing measurement, data interpretation and campaign analytics",
+      "roles": "Marketing analyst; growth analytics associate",
+      "project": "Measurable campaign and conversion funnel report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Evaluate an advertising campaign with controlled comparison",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Meta Social Media Marketing",
+      "issuer": "Meta",
+      "months": "5-6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "Organic and paid social campaigns, channel planning and measurement",
+      "roles": "Social media specialist; social media coordinator",
+      "project": "Measurable campaign and conversion funnel report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Create a paid/organic social campaign and KPI scorecard",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Managing AI Projects with Microsoft",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "AI project life cycle; Agile; risk issues assumptions dependencies; Azure delivery coordination",
+      "roles": "AI project coordinator; technical project manager pathway",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://blog.coursera.org/coursera-expands-micro-credential-catalog-with-new-programs-from-google-deepmind-meta-microsoft-and-more/",
+      "linkkind": "Coursera announcement",
+      "application": "Create a production-readiness gate and RAID log for an AI project",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Account Manager with Generative AI",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "Account planning; customer intelligence; GenAI-assisted proposals; customer relationship management",
+      "roles": "Account manager; client success associate",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Prepare AI-assisted account briefing and renewal strategy",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Agentic AI Business Solutions Architect",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "verified",
+      "source": [
+        "additional"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "Copilot Studio; Foundry; agent communication; MCP; ALM; security and governance",
+      "roles": "Enterprise AI solution architect (requires experience)",
+      "project": "Architecture decision, cost-benefit, governance and threat-model package",
+      "link": "https://www.coursera.org/professional-certificates/microsoft-agentic-ai-business-solutions-architect",
+      "linkkind": "Direct course page",
+      "application": "Architecture decision, cost-benefit, governance and threat-model package",
+      "legacy": false,
+      "evidence": "Individually checked Coursera course page",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft AI & ML Engineering",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "AI/ML engineering with Microsoft tools, model operations and deployment",
+      "roles": "AI/ML engineering practitioner",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Deploy, evaluate and monitor an AI model",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft AI Agents: From Foundations to Applications",
+      "issuer": "Microsoft",
+      "months": "2",
+      "status": "verified",
+      "source": [
+        "additional"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "Azure; RAG; agent architectures; Docker; Kubernetes; orchestration; agent deployment",
+      "roles": "AI agents developer; cloud AI engineering practitioner",
+      "project": "Deployed and monitored Azure AI agent workflow",
+      "link": "https://www.coursera.org/professional-certificates/microsoft-ai-agents",
+      "linkkind": "Direct official program page",
+      "application": "Deployed and monitored Azure AI agent workflow",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft AI Product Manager",
+      "issuer": "Microsoft",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "AI product strategy, product lifecycle and delivery coordination",
+      "roles": "AI product associate; product manager pathway",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a use-case prioritization and launch plan",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Azure AI in Healthcare",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "Azure AI solution concepts; healthcare data safeguards; responsible AI; deployment considerations",
+      "roles": "Health IT solution analyst; AI health systems pathway",
+      "project": "Domain-specific case study and procedure checklist",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Document a privacy-aware non-diagnostic healthcare AI prototype",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Azure AI Solutions Architect",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "verified",
+      "source": [
+        "additional"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "Azure AI architecture; model selection; secure integration; deployment patterns; governance",
+      "roles": "Azure AI solutions architect pathway (experienced)",
+      "project": "Domain-specific case study and procedure checklist",
+      "link": "https://www.coursera.org/professional-certificates/microsoft-azure-ai-solutions-architect",
+      "linkkind": "Direct course page",
+      "application": "Write an enterprise AI reference architecture, risk and deployment plan",
+      "legacy": false,
+      "evidence": "Individually checked Coursera course page",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Azure Data Scientist Associate (DP-100) Exam Prep",
+      "issuer": "Microsoft",
+      "months": "6.5",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Azure data-science tooling and DP-100 exam-domain preparation",
+      "roles": "Azure data scientist pathway",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Train and evaluate a model in Azure",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Exam preparation is not the same credential as passing the independent vendor exam.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Azure Developer Associate (AZ-204) Exam Prep",
+      "issuer": "Microsoft",
+      "months": "10",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Azure app services and developer exam-domain preparation",
+      "roles": "Azure developer pathway",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Deploy a sample Azure application and practice exam objectives",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Exam preparation is not the same credential as passing the independent vendor exam.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Azure Security Engineer Associate (AZ-500)",
+      "issuer": "Microsoft",
+      "months": "6 months",
+      "status": "catalog",
+      "source": [
+        "additional"
+      ],
+      "track": "Security & Cybersecurity",
+      "skills": "Azure identity governance; RBAC; network and workload protection; Azure Key Vault; data encryption; Azure Monitor, Defender and Sentinel; AZ-500 exam topics",
+      "roles": "Azure security engineer pathway; cloud security analyst (with prior Azure expertise)",
+      "project": "Set up secure Azure identities, encrypted storage and security-monitoring playbook",
+      "application": "Set up secure Azure identities, encrypted storage and security-monitoring playbook",
+      "link": "https://www.classcentral.com/course/microsoft-azure-security-engineer-associate-205092",
+      "linkkind": "Independent secondary listing",
+      "evidence": "Secondary listing (check live Coursera enrollment)",
+      "legacy": false,
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Back-End Developer",
+      "issuer": "Microsoft",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Server-side programming, APIs, databases and integration tests",
+      "roles": "Junior backend developer",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Implement a reliable database API",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Beginners Guide to C# Fundamentals",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "C# syntax; control flow; OOP; .NET concepts; debugging",
+      "roles": "Junior .NET developer trainee; programming assistant",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Build and test a C# command-line utility",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Big Data Management and Analytics",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Big-data storage, ingestion and analytical processing",
+      "roles": "Data engineer; analytics platform associate",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Design a large-scale ingestion and query plan",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Business Analyst",
+      "issuer": "Microsoft",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "Requirements elicitation, business process mapping and analysis",
+      "roles": "Junior business analyst",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Document as-is/to-be processes and user stories",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Cloud Support Associate",
+      "issuer": "Microsoft",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Cloud service diagnostics, Azure support and customer operations",
+      "roles": "Azure/cloud support associate",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Triage a cloud service outage",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Cybersecurity Analyst",
+      "issuer": "Microsoft",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Security & Cybersecurity",
+      "skills": "Threats and vulnerabilities; security operations; Windows/cloud identity; SIEM concepts; incident workflows",
+      "roles": "Junior cybersecurity analyst; SOC analyst trainee",
+      "project": "Security incident response playbook or SOC case lab",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Investigate a mock alert and document incident triage and escalation",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Data Architecture and Modern Data Stacks",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Data platform design, pipelines and analytics infrastructure",
+      "roles": "Junior data platform engineer; data architect pathway",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Draft scalable data platform reference architecture",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Data Visualization",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Charts, reports, visual communication and decision dashboards",
+      "roles": "Data visualization analyst",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Create narrative dashboards for executive decisions",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Excel",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Excel workbooks, formulas, data organization and business analysis",
+      "roles": "Reporting analyst; business operations assistant",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Automate monthly workbook reporting and checks",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Front-End Developer",
+      "issuer": "Microsoft",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Modern web UI frameworks, CSS, JS and UI validation",
+      "roles": "Junior frontend developer",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Implement a responsive interface from a prototype",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Full-Stack Developer",
+      "issuer": "Microsoft",
+      "months": "9",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Frontend/backend application architecture, databases, APIs and deployment",
+      "roles": "Junior full-stack developer",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Deploy a complete web application with authentication",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Generative AI Engineering",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "Azure AI; LLM applications; evaluation; RAG; orchestration and secure deployment",
+      "roles": "GenAI engineering developer; Azure AI developer pathway",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Build and monitor an Azure-hosted generative AI application",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Getting Started with ASP.NET Core",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "ASP.NET Core; web APIs; MVC; routing; authentication; server deployment",
+      "roles": "Junior .NET web developer",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Implement a secure API-backed web application",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Introduction to C++ Programming",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "C++ syntax; memory management; classes; debugging; performance",
+      "roles": "Junior C++ programming trainee",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Create and unit-test a simple performance-sensitive application",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft IT Support Specialist",
+      "issuer": "Microsoft",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Windows / Microsoft ecosystem support, troubleshooting and customer support",
+      "roles": "IT support associate",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/professional-certificates/microsoft-it-support-specialist",
+      "linkkind": "Direct official program page",
+      "application": "Document and resolve a support-ticket workflow",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Power BI Data Analyst",
+      "issuer": "Microsoft",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Power Query; data preparation; model relationships; DAX; Power BI reports",
+      "roles": "Power BI analyst; business intelligence analyst",
+      "project": "Interactive Power BI decision dashboard",
+      "link": "https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst",
+      "linkkind": "Direct official program page",
+      "application": "Interactive Power BI decision dashboard",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Power BI Developer and Architect",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Power BI implementation, semantic models, governance and architecture",
+      "roles": "Power BI developer; BI architecture pathway",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Design a reusable semantic model with access controls",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Program Management",
+      "issuer": "Microsoft",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "Program planning; dependency management; stakeholder governance; status reporting; delivery metrics",
+      "roles": "Program coordinator; program office analyst",
+      "project": "Domain-specific case study and procedure checklist",
+      "link": "https://www.coursera.org/professional-certificates/microsoft-program-management",
+      "linkkind": "Direct course page",
+      "application": "Manage a multi-project RAID register and benefits dashboard",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Project Management: Build Job-Ready Skills",
+      "issuer": "Microsoft",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "Project planning, execution, risk management and status reporting",
+      "roles": "Junior project manager; project coordinator",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build project WBS, timeline and risk register",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Public Relations and Communications Associate",
+      "issuer": "Microsoft",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "UX, Creative & Content",
+      "skills": "Stakeholder communications; media relations; messaging; campaign planning; crisis response",
+      "roles": "PR assistant; communications coordinator",
+      "project": "Interactive prototype and case study with before/after usability findings",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Draft a campaign calendar, media brief and simulated crisis-response statement",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Python Development",
+      "issuer": "Microsoft",
+      "months": "2",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Finance, Bookkeeping & Other",
+      "skills": "Python programming, software components, debugging and testing",
+      "roles": "Junior Python developer",
+      "project": "Domain-specific case study and procedure checklist",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Package a tested Python data-processing tool",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft Sales Toolkit with Generative AI",
+      "issuer": "Microsoft",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "Prospecting; pipeline forecasting; proposal drafting; GenAI-assisted sales workflow",
+      "roles": "Sales operations associate; business development representative",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://blog.coursera.org/announcing-new-partners-and-more-for-the-age-of-ai/",
+      "linkkind": "Coursera announcement",
+      "application": "Build a prompt-assisted sales research and proposal toolkit",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Microsoft UX Design",
+      "issuer": "Microsoft",
+      "months": "2",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "UX, Creative & Content",
+      "skills": "UX research; information architecture; wireframes; prototypes; user testing and accessibility",
+      "roles": "Junior UX designer; product design assistant",
+      "project": "Interactive prototype and case study with before/after usability findings",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Prototype and test an online service journey",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Salesforce Sales Development Representative",
+      "issuer": "Salesforce",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "Prospecting; qualification; outreach cadence; Salesforce CRM; objections; lead handoff",
+      "roles": "Sales development representative; business development associate",
+      "project": "Measurable campaign and conversion funnel report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Run a sample lead qualification and outbound sequence with CRM reporting",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Salesforce Sales Operations",
+      "issuer": "Salesforce",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "Salesforce CRM; pipeline analytics; forecasting; reports; sales process design",
+      "roles": "Sales operations coordinator; CRM analyst",
+      "project": "Measurable campaign and conversion funnel report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Configure a lead-to-opportunity dashboard and forecast hygiene audit",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "SAP Business Analyst",
+      "issuer": "SAP",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "SAP business processes, requirements and stakeholder analysis",
+      "roles": "ERP business analyst pathway",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://www.coursera.org/professional-certificates/sap-business-analyst",
+      "linkkind": "Direct official program page",
+      "application": "Map an order-to-cash process and define requirements",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "SAP Technology Consultant",
+      "issuer": "SAP",
+      "months": "7",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "SAP consulting, technology implementation and solution design",
+      "roles": "ERP technology consultant pathway",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Draft an SAP implementation mapping and test plan",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "SAS Advanced Programmer",
+      "issuer": "SAS",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Advanced SAS programming, data manipulation and reusable code",
+      "roles": "SAS programmer",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Create reusable SAS data transformation pipelines",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "SAS Machine Learning Engineer",
+      "issuer": "SAS",
+      "months": "—",
+      "status": "announced",
+      "source": [
+        "additional"
+      ],
+      "track": "AI, ML & Agents",
+      "skills": "Machine learning with SAS; deployment and operational model management",
+      "roles": "Machine learning engineer pathway",
+      "project": "Working AI assistant evaluated on a realistic business workflow",
+      "link": "https://blog.coursera.org/coursera-launches-five-new-professional-certificates-and-expands-ai-and-human-skills-learning/",
+      "linkkind": "Coursera announcement",
+      "application": "Deploy and monitor a supervised model",
+      "legacy": false,
+      "evidence": "Official announcement; program may be unavailable or renamed",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "SAS Programmer",
+      "issuer": "SAS",
+      "months": "2",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "SAS programming, data steps, analytics code and reporting",
+      "roles": "Junior SAS programmer",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Transform and validate a structured data extract",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "SAS Statistical Business Analyst",
+      "issuer": "SAS",
+      "months": "—",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "Applied statistics, SAS analysis and business interpretation",
+      "roles": "Statistical reporting analyst",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Test hypotheses and quantify business performance",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "SAS Visual Business Analytics",
+      "issuer": "SAS",
+      "months": "2",
+      "status": "catalog",
+      "source": [
+        "advance"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "SAS Visual Analytics, dashboarding, business insights",
+      "roles": "SAS BI / reporting analyst",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/advance-your-career",
+      "linkkind": "Official category directory",
+      "application": "Turn financial or customer data into interactive SAS insights",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "IBM AI Product Manager",
+      "issuer": "SkillUp",
+      "months": "6",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "AI product requirements, model tradeoffs and responsible rollout",
+      "roles": "AI product manager pathway; product analyst",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Create a product specification with AI guardrails",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "IBM Business Analyst",
+      "issuer": "SkillUp",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "Requirements gathering, stakeholder analysis and business workflows",
+      "roles": "Business analyst",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Write a functional requirements package",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "IBM Business Intelligence (BI) Analyst",
+      "issuer": "SkillUp",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "SQL; data models; dashboards; KPI definition; BI reporting and stakeholder storytelling",
+      "roles": "Business intelligence analyst; reporting analyst",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Create an executive dashboard from cleaned operational data",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "IBM Data Management",
+      "issuer": "SkillUp",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Database fundamentals; data quality; metadata; governance; security; data lifecycle",
+      "roles": "Data steward; junior data management specialist",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Create a data dictionary, ownership matrix and quality rule set",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "IBM Digital Marketing and Growth Hacking with GenAI",
+      "issuer": "SkillUp",
+      "months": "2",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "AI-assisted campaign design, acquisition funnels and growth experimentation",
+      "roles": "Growth marketing associate",
+      "project": "Measurable campaign and conversion funnel report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Design and analyze an experiment on a signup funnel",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "IBM iOS and Android Mobile App Developer",
+      "issuer": "SkillUp",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Software, Web & Mobile",
+      "skills": "Mobile UI; iOS/Android development concepts; testing; APIs; mobile release workflow",
+      "roles": "Junior mobile app developer; mobile QA assistant",
+      "project": "Deployed tested web app or mobile app with GitHub source",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a sample mobile app and document its testing and releases",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "IBM IT Project Manager",
+      "issuer": "SkillUp",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "IT project initiation; scope/budgets; Agile; technical stakeholder coordination; risk",
+      "roles": "IT project coordinator; junior IT project manager",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Plan a technology rollout with requirements, milestones and risks",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "IBM Product Manager",
+      "issuer": "SkillUp",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "Product lifecycle, market research, prioritization and roadmaps",
+      "roles": "Associate product manager",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Produce customer discovery and roadmap documents",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "IBM Program Manager",
+      "issuer": "SkillUp",
+      "months": "2",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "Program governance; project interdependencies; budgets and communications; benefits tracking",
+      "roles": "Program coordinator; junior program management specialist",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a coordinated roadmap and dependency register for three linked projects",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "IBM Project Manager",
+      "issuer": "SkillUp",
+      "months": "3",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "Project scope, delivery planning, stakeholder requirements and execution",
+      "roles": "Project coordinator; assistant project manager",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Run a simulated project through closure",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "IBM Systems Analyst",
+      "issuer": "SkillUp",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Cloud, DevOps & IT",
+      "skills": "Requirements discovery; systems lifecycle; data flows; functional documentation; business-to-IT translation",
+      "roles": "Junior systems analyst; IT business analyst",
+      "project": "Deploy and monitor a secure cloud application",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Write an as-is/to-be system specification and acceptance tests",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "IBM UI/UX Designer",
+      "issuer": "SkillUp",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "UX, Creative & Content",
+      "skills": "Research; user flows; prototyping; interface design; usability testing and handoff",
+      "roles": "Junior UX/UI designer",
+      "project": "Interactive prototype and case study with before/after usability findings",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Design and test a user flow, then prepare developer handoff assets",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "Tableau Business Intelligence Analyst",
+      "issuer": "Tableau Learning Partner",
+      "months": "8",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Data, BI & Analytics",
+      "skills": "Tableau dashboards, business metrics, visual design and data storytelling",
+      "roles": "Tableau / BI analyst",
+      "project": "Source-to-dashboard business intelligence project with SQL and documented KPI definitions",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Publish an interactive visualization explaining business drivers",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Professional/training institution"
+    },
+    {
+      "name": "Tally Bookkeeper",
+      "issuer": "Tally",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Finance, Bookkeeping & Other",
+      "skills": "Accounting entries; Tally software; ledgers; tax and transaction recording; reconciliations",
+      "roles": "Bookkeeping assistant; accounts clerk (local accounting rules apply)",
+      "project": "Domain-specific case study and procedure checklist",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Set up a ledger and reconcile monthly sales and supplier balances",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Unilever Digital Marketing Analyst",
+      "issuer": "Unilever",
+      "months": "2",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "Digital-channel analysis, campaign reporting and marketing measurement",
+      "roles": "Digital marketing analyst",
+      "project": "Measurable campaign and conversion funnel report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build a campaign performance and optimization report",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Unilever Supply Chain Data Analyst",
+      "issuer": "Unilever",
+      "months": "4",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Supply Chain & Operations",
+      "skills": "Supply chain mapping; supply chain data governance; spreadsheet analysis; descriptive/predictive/prescriptive analysis; demand forecasting; costs and inventory",
+      "roles": "Supply chain analyst; inventory analyst; logistics or purchasing analyst",
+      "project": "Stockout root-cause, demand forecast, and supply delay scenario analysis",
+      "link": "https://www.coursera.org/professional-certificates/unilever-supply-chain-data-analyst",
+      "linkkind": "Direct official program page",
+      "application": "Stockout root-cause, demand forecast, and supply delay scenario analysis",
+      "legacy": false,
+      "evidence": "Direct official program page checked",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Xbox Graphic Designer",
+      "issuer": "Xbox",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "UX, Creative & Content",
+      "skills": "Gaming-oriented visual design, design assets and creative communication",
+      "roles": "Junior graphic designer",
+      "project": "Interactive prototype and case study with before/after usability findings",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Build graphics for a fictional game launch",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Xbox Product Manager",
+      "issuer": "Xbox",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Business, Product & Project",
+      "skills": "Product strategy; gamer discovery; market validation; feature prioritization; roadmapping",
+      "roles": "Associate product manager; gaming product specialist",
+      "project": "Project charter, backlog, roadmap, business case and benefits tracking",
+      "link": "https://www.coursera.org/professional-certificates/xbox-product-manager",
+      "linkkind": "Direct course page",
+      "application": "Write a game-feature product requirements document and release roadmap",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-aligned learning; some target roles typically require prior work experience or a separate assessment.",
+      "provider_type": "Company/industry provider"
+    },
+    {
+      "name": "Zoho Sales Representative",
+      "issuer": "Zoho",
+      "months": "5",
+      "status": "catalog",
+      "source": [
+        "launch"
+      ],
+      "track": "Sales, Marketing & Growth",
+      "skills": "Prospecting; qualification; CRM pipeline; customer conversations; negotiation; closing",
+      "roles": "Sales representative; inside sales associate",
+      "project": "Measurable campaign and conversion funnel report",
+      "link": "https://www.coursera.org/certificates/launch-your-career",
+      "linkkind": "Official category directory",
+      "application": "Create a Zoho CRM pipeline, call notes and activity-based sales forecast",
+      "legacy": false,
+      "evidence": "Official listing; curriculum-level detail not fully audited",
+      "job_fit": "Role-related preparation; not verified placement or eligibility.",
+      "provider_type": "Company/industry provider"
+    }
+  ]
+}
