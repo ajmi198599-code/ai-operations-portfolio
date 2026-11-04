@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/Coursera_Atlas_2026_Masterpiece.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/Coursera_Atlas_2026_Masterpiece.pdf",
+      "headers": [
+        {
+          "key": "Content-Disposition",
+          "value": "inline; filename=\"Coursera_Professional_Certificates_Atlas_2026.pdf\""
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ]
+}
