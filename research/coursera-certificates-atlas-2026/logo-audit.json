@@ -2,10 +2,10 @@
   {
     "name": "Google",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/google.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/google/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "IBM",
@@ -18,50 +18,50 @@
   {
     "name": "Microsoft",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/microsoft.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/microsoft/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "Google Cloud",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/google-cloud.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/google-cloud/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "AWS",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/aws.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/aws/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "Meta",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/meta.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/meta/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "DeepLearning.AI",
     "original_image": "https://cdn.simpleicons.org/deeplearningai",
     "asset_type": "site-favicon-fallback",
     "asset_path": "logos/issuer-assets/deeplearning-ai.png",
-    "source_url": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://deeplearning.ai&size=256",
+    "source_url": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://deeplearning.ai&size=256",
     "status": "embedded-site-favicon-fallback"
   },
   {
     "name": "GitHub",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/github.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/github/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "Adobe",
@@ -74,18 +74,18 @@
   {
     "name": "Salesforce",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/salesforce.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/salesforce/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "SAP",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/sap.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/sap/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "SAS",
@@ -106,58 +106,58 @@
   {
     "name": "Amazon",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/amazon.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/amazon/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "Coursera",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/coursera.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/coursera/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "Intuit",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/intuit.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/intuit/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "Unilever",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/unilever.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/unilever/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "Epic Games",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/epic-games.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/epic-games/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "Akamai",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/akamai.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/akamai/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "Airbus",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/airbus.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/airbus/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "CVS Health",
@@ -170,17 +170,17 @@
   {
     "name": "ADP",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/adp.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/adp/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "Liberty Mutual",
     "original_image": "https://www.google.com/s2/favicons?domain=libertymutualgroup.com&sz=256",
     "asset_type": "site-favicon-fallback",
     "asset_path": "logos/issuer-assets/liberty-mutual.png",
-    "source_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://libertymutualgroup.com&size=256",
+    "source_url": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://libertymutualgroup.com&size=256",
     "status": "embedded-site-favicon-fallback"
   },
   {
@@ -188,7 +188,7 @@
     "original_image": "https://www.google.com/s2/favicons?domain=jhu.edu&sz=256",
     "asset_type": "site-favicon-fallback",
     "asset_path": "logos/issuer-assets/johns-hopkins-university.png",
-    "source_url": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://jhu.edu&size=256",
+    "source_url": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://jhu.edu&size=256",
     "status": "embedded-site-favicon-fallback"
   },
   {
@@ -218,18 +218,18 @@
   {
     "name": "Xbox",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/xbox.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/xbox/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "Zoho",
     "original_image": "previously embedded vector",
-    "asset_type": "published-brand-icon",
-    "asset_path": "original-embedded-artwork",
-    "source_url": "https://github.com/simple-icons/simple-icons",
-    "status": "embedded-original-published-vector"
+    "asset_type": "full-color-brand-vector",
+    "asset_path": "logos/issuer-assets/zoho.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/zoho/default.svg",
+    "status": "embedded-published-color-vector"
   },
   {
     "name": "Tally",
@@ -244,7 +244,7 @@
     "original_image": "https://www.google.com/s2/favicons?domain=certnexus.com&sz=256",
     "asset_type": "site-favicon-fallback",
     "asset_path": "logos/issuer-assets/certnexus.png",
-    "source_url": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://certnexus.com&size=256",
+    "source_url": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://certnexus.com&size=256",
     "status": "embedded-site-favicon-fallback"
   },
   {
@@ -252,7 +252,7 @@
     "original_image": "https://www.google.com/s2/favicons?domain=eccouncil.org&sz=256",
     "asset_type": "site-favicon-fallback",
     "asset_path": "logos/issuer-assets/ec-council.png",
-    "source_url": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://eccouncil.org&size=256",
+    "source_url": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://eccouncil.org&size=256",
     "status": "embedded-site-favicon-fallback"
   },
   {
@@ -284,7 +284,7 @@
     "original_image": "https://www.google.com/s2/favicons?domain=kw.com&sz=256",
     "asset_type": "site-favicon-fallback",
     "asset_path": "logos/issuer-assets/keller-williams.png",
-    "source_url": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://kw.com&size=256",
+    "source_url": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://kw.com&size=256",
     "status": "embedded-site-favicon-fallback"
   },
   {
@@ -292,7 +292,7 @@
     "original_image": "https://www.google.com/s2/favicons?domain=goodwill.org&sz=256",
     "asset_type": "site-favicon-fallback",
     "asset_path": "logos/issuer-assets/goodwill.png",
-    "source_url": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://goodwill.org&size=256",
+    "source_url": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://goodwill.org&size=256",
     "status": "embedded-site-favicon-fallback"
   },
   {
