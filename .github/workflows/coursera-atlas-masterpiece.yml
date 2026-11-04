@@ -1,0 +1,68 @@
+name: Build Coursera Atlas with embedded publisher logos
+
+on:
+  push:
+    branches: [coursera-atlas-editorial-2026]
+    paths:
+      - 'research/coursera-certificates-atlas-2026/build_masterpiece.py'
+      - 'research/coursera-certificates-atlas-2026/index.html'
+      - 'research/coursera-certificates-atlas-2026/logo-provenance.csv'
+      - '.github/workflows/coursera-atlas-masterpiece.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    defaults:
+      run:
+        working-directory: research/coursera-certificates-atlas-2026
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install renderer and parser
+        run: |
+          pip install --disable-pip-version-check beautifulsoup4 requests pillow playwright
+          python -m playwright install --with-deps chromium
+      - name: Download authentic published artwork and build HTML & PDF
+        env:
+          ATLAS_MAKE_PDF: '1'
+        run: python build_masterpiece.py | tee build-log.txt
+      - name: Verify no external image dependencies and validate document
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from bs4 import BeautifulSoup
+          base=Path('.')
+          html=(base/'Coursera_Atlas_2026_Masterpiece.html').read_text()
+          root=BeautifulSoup(html,'html.parser')
+          bad=[x.get('src') for x in root.select('img') if not x.get('src','').startswith('data:')]
+          assert not bad, f'External image dependencies: {bad[:5]}'
+          assert len(root.select('section.sheet'))==145, 'Unexpected chapter/page count'
+          audit=json.loads((base/'logo-audit.json').read_text())
+          assert len(audit)==39, 'Expected 39 publishers'
+          assert (base/'Coursera_Atlas_2026_Masterpiece.pdf').stat().st_size>100_000
+          print('Verified',len(root.select('section.sheet')),'pages and',len(audit),'publishers')
+          PY
+      - name: Commit finished color book and embedded logo audit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Coursera_Atlas_2026_Masterpiece.html Coursera_Atlas_2026_Masterpiece.pdf logo-audit.json build-log.txt logos/issuer-assets/ logos/*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Rebuild complete-colour atlas with published publisher artwork"
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: coursera-atlas-masterpiece-pdf-html
+          path: |
+            research/coursera-certificates-atlas-2026/Coursera_Atlas_2026_Masterpiece.html
+            research/coursera-certificates-atlas-2026/Coursera_Atlas_2026_Masterpiece.pdf
+            research/coursera-certificates-atlas-2026/logo-audit.json
