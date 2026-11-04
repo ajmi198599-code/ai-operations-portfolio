@@ -42,6 +42,27 @@ URLS={
 'Fractal Analytics':('fractal.ai',[]),
 'SkillUp':('skillup.online',['https://tribe-s3-production.imgix.net/2ewbNpWAKI5y295vtjEdj?auto=compress%2Cformat&fit=max&w=1000']),
 }
+PUBLISHED_LOGOS={
+ 'Google':'google',
+ 'Microsoft':'microsoft',
+ 'Google Cloud':'google-cloud',
+ 'AWS':'aws',
+ 'Meta':'meta',
+ 'GitHub':'github',
+ 'Salesforce':'salesforce',
+ 'SAP':'sap',
+ 'Amazon':'amazon',
+ 'Coursera':'coursera',
+ 'Intuit':'intuit',
+ 'Unilever':'unilever',
+ 'Epic Games':'epic-games',
+ 'Akamai':'akamai',
+ 'Airbus':'airbus',
+ 'ADP':'adp',
+ 'Xbox':'xbox',
+ 'Zoho':'zoho',
+}
+
 OFFICIAL={
 'Johns Hopkins University':'https://brand.jhu.edu/visual-identity/primary-logo/',
 'Arizona State University':'https://brandguide.asu.edu/',
@@ -119,7 +140,21 @@ def build():
   name=title.get_text(' ',strip=True);original=mark.get('src','')
   status={'name':name,'original_image':original[:350] if not original.startswith('data:') else 'previously embedded vector','asset_type':None,'asset_path':None,'source_url':None,'status':None}
   if original.startswith('data:image/'):
-   status.update(status='embedded-original-published-vector',asset_type='published-brand-icon',asset_path='original-embedded-artwork',source_url=primaries.get(name) or 'https://github.com/simple-icons/simple-icons')
+   slug=PUBLISHED_LOGOS.get(name)
+   fullcolor_url=f'https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/{slug}/default.svg' if slug else None
+   data,ctype,u=fetch(fullcolor_url) if fullcolor_url and not offline else (None,None,None)
+   kind=detect(data,ctype,fullcolor_url) if data else None
+   if kind and kind[1]=='svg':
+    data=clean_svg(data)
+   if data and kind:
+    fname=re.sub(r'[^a-z0-9]+','-',name.lower()).strip('-')+'.'+kind[1]
+    rel='logos/issuer-assets/'+fname
+    (ROOT/rel).write_bytes(data)
+    replacements[original]=(data,kind)
+    status.update(status='embedded-published-color-vector',asset_type='full-color-brand-vector',asset_path=rel,source_url=u or fullcolor_url)
+    replaced+=1
+   else:
+    status.update(status='embedded-original-published-vector',asset_type='published-brand-icon',asset_path='original-embedded-artwork',source_url=primaries.get(name) or 'https://github.com/simple-icons/simple-icons')
    report.append(status)
    continue
   if original.startswith('logos/'):
