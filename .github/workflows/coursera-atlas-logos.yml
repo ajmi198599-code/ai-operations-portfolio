@@ -1,0 +1,61 @@
+name: Build Coursera Atlas Full-Colour Edition
+on:
+  push:
+    branches: [coursera-atlas-editorial-2026]
+    paths:
+      - ".github/workflows/coursera-atlas-logos.yml"
+      - "research/coursera-certificates-atlas-2026/build_masterpiece.py"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-atlas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    defaults:
+      run:
+        working-directory: research/coursera-certificates-atlas-2026
+    steps:
+      - name: Check out book project
+        uses: actions/checkout@v4
+        with:
+          ref: coursera-atlas-editorial-2026
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install book build dependencies
+        run: |
+          python -m pip install -q requests beautifulsoup4 pillow playwright
+          python -m playwright install --with-deps chromium
+      - name: Collect source artwork and build HTML and PDF
+        env:
+          ATLAS_MAKE_PDF: "1"
+        run: python build_masterpiece.py
+      - name: Confirm all resources are embedded
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from bs4 import BeautifulSoup
+          import json
+          html=Path("Coursera_Atlas_2026_Masterpiece.html").read_text()
+          s=BeautifulSoup(html,"html.parser")
+          images=s.find_all("img")
+          bad=[i.get("src","") for i in images if not i.get("src","").startswith("data:")]
+          audit=json.loads(Path("logo-audit.json").read_text())
+          print("Publishers:",len(audit),"embedded images:",len(images),"external dependencies:",len(bad))
+          for r in audit:print(r['name'],r['status'])
+          assert not bad, "Image has an external source"
+          assert len(audit)==39
+          assert Path("Coursera_Atlas_2026_Masterpiece.pdf").stat().st_size>100000
+          PY
+      - name: Save book and sources on working branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Coursera_Atlas_2026_Masterpiece.html Coursera_Atlas_2026_Masterpiece.pdf logo-audit.json logos/issuer-assets
+          if ! git diff --cached --quiet; then
+            git commit -m "Embed source-verified publisher images and regenerate full-colour Atlas"
+            git push origin HEAD:coursera-atlas-editorial-2026
+          fi
