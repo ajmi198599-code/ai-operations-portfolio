@@ -209,9 +209,9 @@ def build():
    with sync_playwright() as p:
     browser=p.chromium.launch(headless=True,args=['--no-sandbox','--disable-dev-shm-usage'])
     page=browser.new_page(viewport={'width':1300,'height':1000},device_scale_factor=1)
-    page.goto(EXPORT.as_uri(),wait_until='load',timeout=90000)
+    page.set_content(EXPORT.read_text(encoding='utf-8'),wait_until='load',timeout=90000)
     page.emulate_media(media='print')
-    page.pdf(path=str(pdf),format='A4',print_background=True,prefer_css_page_size=True,margin={'top':'0','right':'0','bottom':'0','left':'0'},timeout=300000)
+    page.pdf(path=str(pdf),format='A4',print_background=True,prefer_css_page_size=True,margin={'top':'0','right':'0' ,'bottom':'0','left':'0'})
     browser.close()
    print('PDF rendered',str(pdf),pdf.stat().st_size)
   except Exception as e:print('PDF render error',repr(e));sys.exit(2)
