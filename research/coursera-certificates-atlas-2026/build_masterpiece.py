@@ -40,7 +40,7 @@ URLS={
 'Keller Williams':('kw.com',[]),
 'Goodwill':('goodwill.org',[]),
 'Fractal Analytics':('fractal.ai',[]),
-'SkillUp':('skillup.online',[]),
+'SkillUp':('skillup.online',['https://tribe-s3-production.imgix.net/2ewbNpWAKI5y295vtjEdj?auto=compress%2Cformat&fit=max&w=1000']),
 }
 OFFICIAL={
 'Johns Hopkins University':'https://brand.jhu.edu/visual-identity/primary-logo/',
@@ -118,6 +118,10 @@ def build():
   if not title or not mark:continue
   name=title.get_text(' ',strip=True);original=mark.get('src','')
   status={'name':name,'original_image':original[:350] if not original.startswith('data:') else 'previously embedded vector','asset_type':None,'asset_path':None,'source_url':None,'status':None}
+  if original.startswith('data:image/'):
+   status.update(status='embedded-original-published-vector',asset_type='published-brand-icon',asset_path='original-embedded-artwork',source_url=primaries.get(name) or 'https://github.com/simple-icons/simple-icons')
+   report.append(status)
+   continue
   if original.startswith('logos/'):
    p=ROOT/original
    logo_url=primaries.get(name)
