@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Google",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "IBM",
+    "original_image": "https://cdn.simpleicons.org/ibm",
+    "asset_type": "public-published-logo",
+    "asset_path": "logos/issuer-assets/ibm.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/ibm/default.svg",
+    "status": "embedded-public-published-logo"
+  },
+  {
+    "name": "Microsoft",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "Google Cloud",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "AWS",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "Meta",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "DeepLearning.AI",
+    "original_image": "https://cdn.simpleicons.org/deeplearningai",
+    "asset_type": "site-favicon-fallback",
+    "asset_path": "logos/issuer-assets/deeplearning-ai.png",
+    "source_url": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://deeplearning.ai&size=256",
+    "status": "embedded-site-favicon-fallback"
+  },
+  {
+    "name": "GitHub",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "Adobe",
+    "original_image": "https://cdn.simpleicons.org/adobe",
+    "asset_type": "public-published-logo",
+    "asset_path": "logos/issuer-assets/adobe.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/adobe/default.svg",
+    "status": "embedded-public-published-logo"
+  },
+  {
+    "name": "Salesforce",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "SAP",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "SAS",
+    "original_image": "https://cdn.simpleicons.org/sas",
+    "asset_type": "public-published-logo",
+    "asset_path": "logos/issuer-assets/sas.svg",
+    "source_url": "https://raw.githubusercontent.com/ln-dev7/logos-apps/master/logos/sas.svg",
+    "status": "embedded-public-published-logo"
+  },
+  {
+    "name": "Tableau Learning Partner",
+    "original_image": "https://cdn.simpleicons.org/tableau",
+    "asset_type": "public-published-logo",
+    "asset_path": "logos/issuer-assets/tableau-learning-partner.svg",
+    "source_url": "https://raw.githubusercontent.com/glincker/thesvg/main/public/icons/tableau/default.svg",
+    "status": "embedded-public-published-logo"
+  },
+  {
+    "name": "Amazon",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "Coursera",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "Intuit",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "Unilever",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "Epic Games",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "Akamai",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "Airbus",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "CVS Health",
+    "original_image": "https://cdn.simpleicons.org/cvshealth",
+    "asset_type": "public-published-logo",
+    "asset_path": "logos/issuer-assets/cvs-health.avif",
+    "source_url": "https://www.cvshealth.com/content/dam/enterprise/cvs-enterprise/logos/news-component-hero-logo/CVSHealth-Enterprise-Hero-Logo-1600x900.jpeg",
+    "status": "embedded-public-published-logo"
+  },
+  {
+    "name": "ADP",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "Liberty Mutual",
+    "original_image": "https://www.google.com/s2/favicons?domain=libertymutualgroup.com&sz=256",
+    "asset_type": "site-favicon-fallback",
+    "asset_path": "logos/issuer-assets/liberty-mutual.png",
+    "source_url": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://libertymutualgroup.com&size=256",
+    "status": "embedded-site-favicon-fallback"
+  },
+  {
+    "name": "Johns Hopkins University",
+    "original_image": "https://www.google.com/s2/favicons?domain=jhu.edu&sz=256",
+    "asset_type": "site-favicon-fallback",
+    "asset_path": "logos/issuer-assets/johns-hopkins-university.png",
+    "source_url": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://jhu.edu&size=256",
+    "status": "embedded-site-favicon-fallback"
+  },
+  {
+    "name": "Arizona State University",
+    "original_image": "https://www.google.com/s2/favicons?domain=asu.edu&sz=256",
+    "asset_type": "official-logo",
+    "asset_path": "logos/issuer-assets/arizona-state-university.webp",
+    "source_url": "https://www.asu.edu/profiles/contrib/webspark/modules/asu_brand/dist/assets/img/arizona-state-university-logo-vertical.png",
+    "status": "embedded-official-logo"
+  },
+  {
+    "name": "KPMG India",
+    "original_image": "https://cdn.simpleicons.org/kpmg",
+    "asset_type": "official-logo",
+    "asset_path": "logos/issuer-assets/kpmg-india.svg",
+    "source_url": "https://kpmg.com/content/experience-fragments/kpmgpublic/xx/en/site/header/master/_jcr_content/root/header_v2/logo.coreimg.svg/1787056531657/logo.svg",
+    "status": "embedded-official-logo"
+  },
+  {
+    "name": "MathWorks",
+    "original_image": "https://cdn.simpleicons.org/mathworks",
+    "asset_type": "public-published-logo",
+    "asset_path": "logos/issuer-assets/mathworks.svg",
+    "source_url": "https://raw.githubusercontent.com/ln-dev7/logos-apps/master/logos/mathworks.svg",
+    "status": "embedded-public-published-logo"
+  },
+  {
+    "name": "Xbox",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "Zoho",
+    "original_image": "previously embedded vector",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": null,
+    "status": "missing-verified-artwork"
+  },
+  {
+    "name": "Tally",
+    "original_image": "https://cdn.simpleicons.org/tally",
+    "asset_type": "official-logo",
+    "asset_path": "logos/issuer-assets/tally.svg",
+    "source_url": "https://resources.tallysolutions.com/wp-content/themes/tally/assets/images/tally-logo-black.svg",
+    "status": "embedded-official-logo"
+  },
+  {
+    "name": "CertNexus",
+    "original_image": "https://www.google.com/s2/favicons?domain=certnexus.com&sz=256",
+    "asset_type": "site-favicon-fallback",
+    "asset_path": "logos/issuer-assets/certnexus.png",
+    "source_url": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://certnexus.com&size=256",
+    "status": "embedded-site-favicon-fallback"
+  },
+  {
+    "name": "EC-Council",
+    "original_image": "https://www.google.com/s2/favicons?domain=eccouncil.org&sz=256",
+    "asset_type": "site-favicon-fallback",
+    "asset_path": "logos/issuer-assets/ec-council.png",
+    "source_url": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://eccouncil.org&size=256",
+    "status": "embedded-site-favicon-fallback"
+  },
+  {
+    "name": "HRCI",
+    "original_image": "https://www.google.com/s2/favicons?domain=hrci.org&sz=256",
+    "asset_type": "official-logo",
+    "asset_path": "logos/issuer-assets/hrci.svg",
+    "source_url": "https://www.hrci.org/images/default-source/public-content/desktop/sitewide/hrci-logos/hrci_logo_nospace_purple.svg?sfvrsn=cbdcdd46_0",
+    "status": "embedded-official-logo"
+  },
+  {
+    "name": "AAPC",
+    "original_image": "https://www.google.com/s2/favicons?domain=aapc.com&sz=256",
+    "asset_type": "official-logo",
+    "asset_path": "logos/issuer-assets/aapc.svg",
+    "source_url": "https://cache.aapc.com/cache/svg/codify_logo.svg",
+    "status": "embedded-official-logo"
+  },
+  {
+    "name": "LearnQuest",
+    "original_image": "https://www.google.com/s2/favicons?domain=learnquest.com&sz=256",
+    "asset_type": "site-favicon-fallback",
+    "asset_path": "logos/issuer-assets/learnquest.png",
+    "source_url": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://learnquest.com&size=256",
+    "status": "embedded-site-favicon-fallback"
+  },
+  {
+    "name": "Keller Williams",
+    "original_image": "https://www.google.com/s2/favicons?domain=kw.com&sz=256",
+    "asset_type": "site-favicon-fallback",
+    "asset_path": "logos/issuer-assets/keller-williams.png",
+    "source_url": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://kw.com&size=256",
+    "status": "embedded-site-favicon-fallback"
+  },
+  {
+    "name": "Goodwill",
+    "original_image": "https://www.google.com/s2/favicons?domain=goodwill.org&sz=256",
+    "asset_type": "site-favicon-fallback",
+    "asset_path": "logos/issuer-assets/goodwill.png",
+    "source_url": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://goodwill.org&size=256",
+    "status": "embedded-site-favicon-fallback"
+  },
+  {
+    "name": "Fractal Analytics",
+    "original_image": "https://www.google.com/s2/favicons?domain=fractal.ai&sz=256",
+    "asset_type": "official-site-icon",
+    "asset_path": "logos/issuer-assets/fractal-analytics.png",
+    "source_url": "https://framerusercontent.com/images/2NEvcDMv0ErqoXzQe3A9Z2TJgiE.png",
+    "status": "embedded-official-site-icon"
+  },
+  {
+    "name": "SkillUp",
+    "original_image": "https://www.google.com/s2/favicons?domain=skillup.online&sz=256",
+    "asset_type": "legible-nameplate",
+    "asset_path": null,
+    "source_url": "https://skillup.online/",
+    "status": "missing-verified-artwork"
+  }
+]
