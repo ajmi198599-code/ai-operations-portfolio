@@ -50,7 +50,7 @@ OFFICIAL={
 
 def fetch(u):
  try:
-  r=SS.get(u,timeout=8,allow_redirects=True)
+  r=SS.get(u,timeout=5,allow_redirects=True)
   if r.status_code==200 and 50<=len(r.content)<=1_300_000:return r.content,r.headers.get('Content-Type',''),r.url
  except requests.RequestException:pass
  return None,None,None
@@ -100,7 +100,15 @@ def clean_svg(raw):
  if re.search(r'<(?:script|foreignObject)\b|\bon(?:load|error|click)\s*=|(?:href|src)\s*=\s*[\"\']https?://',txt,re.I):return None
  return txt.encode()
 
+def primary_logo_sources():
+    import csv
+    f=ROOT/'logo-provenance.csv'
+    if not f.exists():return {}
+    with f.open(encoding='utf-8-sig',newline='') as h:
+        return {r.get('name'):r.get('primary') for r in csv.DictReader(h) if r.get('primary')}
+
 def build():
+ primaries=primary_logo_sources()
  src=SOURCE.read_text(encoding='utf-8');soup=BeautifulSoup(src,'html.parser')
  report=[];replaced=0;offline=(os.environ.get('ATLAS_OFFLINE')=='1')
  # Profile list gives provider names; all book images with the same remote URL are replaced below.
@@ -112,11 +120,23 @@ def build():
   status={'name':name,'original_image':original[:350] if not original.startswith('data:') else 'previously embedded vector','asset_type':None,'asset_path':None,'source_url':None,'status':None}
   if original.startswith('logos/'):
    p=ROOT/original
+   logo_url=primaries.get(name)
+   if not p.exists() and logo_url and not offline:
+    result=fetch(logo_url)
+    data,ctype,final_url=result
+    kind=detect(data,ctype,logo_url)
+    if kind and kind[1]=='svg':
+     data=clean_svg(data)
+    if data and kind:
+     p.parent.mkdir(parents=True,exist_ok=True)
+     p.write_bytes(data)
    if p.exists():
     raw=p.read_bytes();kind=detect(raw,'image/svg+xml',original)
     if kind:
-     status.update(status='embedded-public-vector',asset_type='published-brand-icon',asset_path=original,source_url='https://github.com/simple-icons/simple-icons')
+     status.update(status='embedded-public-vector',asset_type='published-brand-icon',asset_path=original,source_url=logo_url or 'https://github.com/simple-icons/simple-icons')
      replacements[original]=(raw,kind)
+   if not status['status']:
+    status.update(status='missing-verified-artwork',asset_type='legible-nameplate',source_url=logo_url)
    report.append(status);continue
   dom,cands=URLS.get(name,('',[]));selected=None
   if not offline:
@@ -167,13 +187,18 @@ def build():
     fallback.string=(name_match.group(1) if name_match else 'PUBLISHER')
     img.replace_with(fallback)
   elif original.startswith('logos/'):
-   # should be covered above, but avoid depending on relative paths in the single-file edition
-   img['alt']='Local logo asset unavailable'
+   # No unresolved relative asset paths.
+   fallback=soup.new_tag('span',attrs={'class':'publisher-nameplate'})
+   fallback.string=img.get('alt','Publisher').replace('الرمز المنشور لجهة','').strip() or 'PUBLISHER'
+   img.replace_with(fallback)
 
  style=soup.new_tag('style')
  style.string='''.publisher-nameplate{display:inline-flex;align-items:center;justify-content:center;font-family:Arial,sans-serif;font-size:10px;letter-spacing:-.1px;font-weight:900;line-height:1.12;text-align:center;color:#17436d;overflow-wrap:anywhere;max-width:100%;padding:2px}.profile-symbol .publisher-nameplate{font-size:11px}.index-logo .publisher-nameplate{font-size:6px}.course-publisher .publisher-nameplate{font-size:9px;background:white;border-radius:3px}'''
  soup.head.append(style)
  EXPORT.write_text(str(soup),encoding='utf-8')
+ remotes=[x.get('src','') for x in soup.find_all('img') if not x.get('src','').startswith('data:')]
+ if remotes:
+  raise RuntimeError('External or relative image dependencies remain: '+repr(remotes[:5]))
  AUDIT.write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
  counts={k:sum(r['status']==k for r in report) for k in sorted(set(r['status'] for r in report))}
  print(json.dumps({'providers':len(report),'replaced':replaced,'counts':counts,'out_html':str(EXPORT),'images':len(soup.find_all('img')),'unresolved':[x['name'] for x in report if x['status']=='missing-verified-artwork']},ensure_ascii=False))
