@@ -18,7 +18,7 @@
       workEyebrow: 'THE WORK / SELECTED PROJECTS', workTitle: 'Selected work<span class="accent-stop">.</span>',
       workIntro: 'A deliberate selection of experiments and working digital products — each with a different problem to solve.',
       filterAll: 'All work', filterIntelligence: 'Intelligence', filterExperience: 'Experience', filterProducts: 'Digital products',
-      workFootnote: 'Case studies separate completed features, design directions, and what needs further verification. No invented business metrics.',
+      workFootnote: 'Explore the thinking behind each project, the design decisions that shaped it, and the evidence still being verified.',
       practiceEyebrow: 'WHAT I BRING TO THE TABLE', practiceTitle: 'One practice.<br>Three perspectives.',
       practiceIntro: 'I connect commercial questions, human needs, and technical delivery — rather than treating them as separate disciplines.',
       lensBusiness: 'Business understanding', lensExperience: 'Experience design', lensEngineering: 'Engineering mindset', lensPanelLabel: 'THE PERSPECTIVE',
@@ -30,7 +30,7 @@
       aboutLocation: 'Based in Jeddah, Saudi Arabia', aboutLanguage: 'Working in Arabic & English', githubExplore: 'Explore my GitHub',
       contactTitle: 'The next good idea<br>starts with a conversation.',
       contactDesc: 'Exploring a challenge, a collaboration or a new professional opportunity? I’d be glad to connect.',
-      connectLabel: 'VIEW GITHUB', footerLine: 'Thoughtfully designed. Continually improving.', backToTop: 'BACK TO TOP ↑',
+      connectLabel: 'EMAIL ME', connectLinkedin: 'Connect on LinkedIn', resumeRequest: 'Request my professional résumé', readFullCase: 'Read full case study', openLiveDemo: 'Visit project', proofLabel: 'See the detailed work', footerLine: 'Thoughtfully designed. Continually improving.', backToTop: 'BACK TO TOP ↑',
       footerCopyright: 'All rights reserved.', status: 'DEPLOYMENT RECORDED', viewCase: 'Explore case study', projectLink: 'Open recorded deployment',
       publicNote: 'Public access and end-to-end functionality have not been independently confirmed.',
       projectHeading: 'The project', challenge: 'The challenge', approach: 'Design approach', implementation: 'Implementation focus',
@@ -58,7 +58,7 @@
       workEyebrow: 'أعمال ومنتجات مختارة', workTitle: 'أعمال مختارة<span class="accent-stop">.</span>',
       workIntro: 'مجموعة منتقاة من التجارب والمنتجات الرقمية، لكل منها تحدٍّ مختلف نحاول معالجته.',
       filterAll: 'جميع الأعمال', filterIntelligence: 'الذكاء والتحليلات', filterExperience: 'التجارب', filterProducts: 'المنتجات الرقمية',
-      workFootnote: 'توضح دراسات الحالة ما نُفّذ بالفعل، وما يزال مفهومًا تصميميًا، وما يحتاج إلى اختبار إضافي دون اختلاق مؤشرات أداء.',
+      workFootnote: 'تعرّف على تحديات كل مشروع وخيارات التصميم وحالة التحقق من المخرجات.',
       practiceEyebrow: 'ما أقدمه من خبرات', practiceTitle: 'منهج واحد.<br>ثلاث زوايا.',
       practiceIntro: 'أربط متطلبات الأعمال واحتياجات المستخدمين والتطبيق التقني، بدلًا من النظر إليها كتخصصات منفصلة.',
       lensBusiness: 'فهم الأعمال', lensExperience: 'تصميم التجارب', lensEngineering: 'منهج هندسي', lensPanelLabel: 'زاوية النظر',
@@ -70,7 +70,7 @@
       aboutLocation: 'مقيم في جدة، المملكة العربية السعودية', aboutLanguage: 'أعمل بالعربية والإنجليزية', githubExplore: 'تصفح حسابي على GitHub',
       contactTitle: 'الفكرة الجيدة التالية<br>تبدأ بحوار.',
       contactDesc: 'هل لديك تحدٍ أو فرصة تعاون أو دور مهني؟ يسعدني التواصل ومناقشة الأفكار.',
-      connectLabel: 'حساب GITHUB', footerLine: 'تصميم مدروس. وتطوير مستمر.', backToTop: 'العودة للأعلى ↑',
+      connectLabel: 'راسلني', connectLinkedin: 'تواصل عبر لينكدإن', resumeRequest: 'اطلب سيرتي الذاتية المهنية', readFullCase: 'اقرأ دراسة الحالة الكاملة', openLiveDemo: 'زيارة المشروع', proofLabel: 'اكتشف تفاصيل المشروع', footerLine: 'تصميم مدروس. وتطوير مستمر.', backToTop: 'العودة للأعلى ↑',
       footerCopyright: 'جميع الحقوق محفوظة.', status: 'توجد نسخة منشورة', viewCase: 'اقرأ دراسة الحالة', projectLink: 'افتح رابط النشر',
       publicNote: 'لم يُتحقق بعد بشكل مستقل من الإتاحة العامة واختبارات الوظائف الكاملة.',
       projectHeading: 'عن المشروع', challenge: 'التحدي', approach: 'المعالجة التصميمية', implementation: 'نطاق التنفيذ',
@@ -155,6 +155,7 @@
     $('.skip-link').textContent = isAr ? 'الانتقال إلى المحتوى' : 'Skip to content';
     $('.brand').setAttribute('aria-label', isAr ? 'محمد العجمي — الرئيسية' : 'Mohammed Alajmi — home');
     $('.menu-toggle').setAttribute('aria-label', isAr ? 'فتح القائمة' : 'Open menu');
+    $('.contact-orb').setAttribute('aria-label', isAr ? 'أرسل بريدًا إلكترونيًا إلى محمد' : 'Send Mohammed an email');
     $('.filters').setAttribute('aria-label', isAr ? 'تصفية المشاريع' : 'Filter projects');
     $('.lenses').setAttribute('aria-label', isAr ? 'منظورات العمل' : 'Explore design perspectives');
     $('#case-close').setAttribute('aria-label', isAr ? 'إغلاق دراسة الحالة' : 'Close case study');
@@ -184,7 +185,7 @@
         <div class="project-meta"><span>${escapeHTML(p.index)} / ${escapeHTML(p.labels[language])}</span><span>${p.year}</span></div>
         <div class="project-title-row"><h3>${escapeHTML(p.name)}</h3><button type="button" data-open="${p.id}" class="project-open" aria-label="${escapeHTML(label('viewCase'))}: ${escapeHTML(p.name)}">↗</button></div>
         <p class="project-summary">${escapeHTML(p.summary[language])}</p>
-        <div class="project-footer"><span class="project-status"><span class="status-dot"></span>${escapeHTML(label('status'))}</span><button type="button" data-open="${p.id}" class="case-link">${escapeHTML(label('viewCase'))} <span aria-hidden="true">↗</span></button></div>
+        <div class="project-footer"><span class="project-status"><span class="status-dot"></span>${escapeHTML(label('status'))}</span><div class="project-actions"><a class="case-link" href="./work/${p.id}/?lang=${language}">${escapeHTML(label('readFullCase'))} <span aria-hidden="true">↗</span></a><a class="project-demo" target="_blank" rel="noopener noreferrer" href="${escapeHTML(p.url)}">${escapeHTML(label('openLiveDemo'))} <span aria-hidden="true">↗</span></a></div></div>
       </article>
     `).join('');
     attachReveals($('#project-grid'));
@@ -217,7 +218,7 @@
         <section><span>03 — ${escapeHTML(label('implementation'))}</span><p>${escapeHTML(p.implementation[language])}</p></section>
         <section><span>04 — ${escapeHTML(label('limitations'))}</span><p>${escapeHTML(p.limitations[language])}</p></section>
       </div>
-      <div class="case-action"><a target="_blank" rel="noopener noreferrer" href="${escapeHTML(p.url)}">${escapeHTML(label('projectLink'))} <span aria-hidden="true">↗</span></a><p>${escapeHTML(label('linkDisclaimer'))}</p></div>
+      <div class="case-action"><div class="case-cta-row"><a href="./work/${p.id}/?lang=${language}">${escapeHTML(label('readFullCase'))} <span aria-hidden="true">↗</span></a><a target="_blank" rel="noopener noreferrer" href="${escapeHTML(p.url)}">${escapeHTML(label('openLiveDemo'))} <span aria-hidden="true">↗</span></a></div><p>${escapeHTML(label('linkDisclaimer'))}</p></div>
       <button class="case-back" type="button" data-close-case>← ${escapeHTML(label('caseBack'))}</button>`;
   }
 
@@ -271,7 +272,7 @@
       if (!['ArrowRight','ArrowLeft','Home','End'].includes(event.key)) return;
       event.preventDefault();
       const tabs = $$('.lens'); const index = tabs.indexOf(button);
-      const nextIndex = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length-1 : (index + (event.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
+      const nextIndex = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length-1 : (index + (event.key === 'ArrowRight' ? (document.dir === 'rtl' ? -1 : 1) : (document.dir === 'rtl' ? 1 : -1)) + tabs.length) % tabs.length;
       tabs[nextIndex].focus(); selectLens(tabs[nextIndex].dataset.lens);
     });
   });
@@ -280,6 +281,7 @@
     if (opener) { lastCaseTrigger = opener; openCase(opener.dataset.open); }
     if (event.target.closest('[data-close-case]')) closeCase();
   });
+  document.addEventListener('pointerdown', event => { if (!$('#mobile-menu').hidden && !event.target.closest('.site-header')) closeMobileNav(); });
   $('#case-close').addEventListener('click', () => closeCase());
   $('#case-dialog').addEventListener('click', event => { if (event.target === $('#case-dialog')) closeCase(); });
   $('#case-dialog').addEventListener('close', () => {
