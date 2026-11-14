@@ -99,3 +99,28 @@ html[dir=rtl]{--sans:'Noto Sans Arabic','Manrope',Arial,sans-serif;--serif:'Noto
   .footer-middle{gap:15px;flex-wrap:wrap}
 }
 @media(prefers-reduced-motion:reduce){.about-resume,.project-actions a,.contact-link{transition:none!important}}
+
+/* V3 — Human-centred editorial photography replaces AI-looking CSS mock scenes. */
+.hero-photo{margin:0;align-self:stretch;position:relative;min-height:540px;overflow:hidden;background:#24332e;box-shadow:18px 28px 70px rgba(0,0,0,.18)}
+.hero-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(9,18,14,.66));pointer-events:none}
+.hero-photo>img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;object-position:50% 48%;filter:saturate(.84) contrast(.98)}
+.photo-editorial-tag{position:absolute;z-index:2;inset:auto 25px 25px;display:flex;justify-content:space-between;gap:14px;color:#f8f7f0;font:600 10px/1.5 var(--mono);letter-spacing:.07em}
+.editorial-visual{display:block;position:absolute;inset:0;overflow:hidden;background:#20352c}
+.editorial-visual img{height:100%;width:100%;object-fit:cover;display:block;transition:transform .7s cubic-bezier(.2,.65,.24,1);filter:saturate(.87)}
+.project-image:hover .editorial-visual img{transform:scale(1.035)}
+.editorial-visual:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,transparent 48%,rgba(12,20,16,.57))}
+.editorial-visual-label{position:absolute;z-index:3;left:19px;bottom:20px;color:#fff;font:600 10px/1.5 var(--mono);letter-spacing:.08em;text-shadow:0 1px 6px #1118;pointer-events:none}
+.project-image .visual-disclaimer{display:none}
+.editorial-about{padding:0;border:0;background:#b8b6a6;min-height:450px}
+.editorial-about:before,.editorial-about:after{display:none}
+.editorial-about img{width:100%;height:100%;object-fit:cover;object-position:center;position:absolute;inset:0;filter:saturate(.74)}
+.editorial-about figcaption{position:absolute;bottom:0;inset-inline:0;color:#fff;display:flex;justify-content:space-between;gap:20px;padding:25px 22px;background:linear-gradient(transparent,rgba(17,26,22,.74));font:600 10px/1.4 var(--mono);letter-spacing:.06em}
+.case-visual .editorial-visual-label{bottom:24px}
+.case-visual .case-visual-note{display:none}
+@media(max-width:800px){.hero-photo{width:100%;max-width:580px;min-height:380px;height:440px;align-self:center}.photo-editorial-tag{font-size:9px}}
+@media(max-width:600px){.hero-photo{width:100%;min-height:265px;height:290px;max-height:290px}.hero-inner{gap:30px}.hero-heading{font-size:clamp(47px,12.8vw,73px)}.photo-editorial-tag{padding:0;inset:auto 15px 15px;font-size:8px}.editorial-about{min-height:350px;width:100%;max-width:100%}.editorial-about figcaption{font-size:8px}.editorial-visual-label{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.editorial-visual img{transition:none}}
+
+html[lang=en] .photo-editorial-tag [data-lang=ar],html[lang=ar] .photo-editorial-tag [data-lang=en],html[lang=en] .editorial-about [data-lang=ar],html[lang=ar] .editorial-about [data-lang=en]{display:none}
+html[dir=rtl] .editorial-visual-label{left:auto;right:19px;font-family:'Noto Sans Arabic',sans-serif;letter-spacing:0}
+html[dir=rtl] .photo-editorial-tag,html[dir=rtl] .editorial-about figcaption{font-family:'Noto Sans Arabic',sans-serif;letter-spacing:0}

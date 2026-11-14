@@ -1,0 +1,134 @@
+{
+  "checks": [
+    {
+      "screen": "360px en",
+      "overflow": false,
+      "images": 6,
+      "filters": "pass",
+      "dialog": "pass",
+      "javascript": "pass",
+      "remote_image_bytes": "not tested"
+    },
+    {
+      "screen": "360px ar",
+      "overflow": false,
+      "images": 6,
+      "filters": "pass",
+      "dialog": "pass",
+      "javascript": "pass",
+      "remote_image_bytes": "not tested"
+    },
+    {
+      "screen": "390px en",
+      "overflow": false,
+      "images": 6,
+      "filters": "pass",
+      "dialog": "pass",
+      "javascript": "pass",
+      "remote_image_bytes": "not tested"
+    },
+    {
+      "screen": "390px ar",
+      "overflow": false,
+      "images": 6,
+      "filters": "pass",
+      "dialog": "pass",
+      "javascript": "pass",
+      "remote_image_bytes": "not tested"
+    },
+    {
+      "screen": "768px en",
+      "overflow": false,
+      "images": 6,
+      "filters": "pass",
+      "dialog": "pass",
+      "javascript": "pass",
+      "remote_image_bytes": "not tested"
+    },
+    {
+      "screen": "768px ar",
+      "overflow": false,
+      "images": 6,
+      "filters": "pass",
+      "dialog": "pass",
+      "javascript": "pass",
+      "remote_image_bytes": "not tested"
+    },
+    {
+      "screen": "1440px en",
+      "overflow": false,
+      "images": 6,
+      "filters": "pass",
+      "dialog": "pass",
+      "javascript": "pass",
+      "remote_image_bytes": "not tested"
+    },
+    {
+      "screen": "1440px ar",
+      "overflow": false,
+      "images": 6,
+      "filters": "pass",
+      "dialog": "pass",
+      "javascript": "pass",
+      "remote_image_bytes": "not tested"
+    },
+    {
+      "case": "jeddah-port",
+      "lang": "en",
+      "images": 1,
+      "javascript": "pass",
+      "overflow": false
+    },
+    {
+      "case": "jeddah-port",
+      "lang": "ar",
+      "images": 1,
+      "javascript": "pass",
+      "overflow": false
+    },
+    {
+      "case": "beyond-reality",
+      "lang": "en",
+      "images": 1,
+      "javascript": "pass",
+      "overflow": false
+    },
+    {
+      "case": "beyond-reality",
+      "lang": "ar",
+      "images": 1,
+      "javascript": "pass",
+      "overflow": false
+    },
+    {
+      "case": "the-tea",
+      "lang": "en",
+      "images": 1,
+      "javascript": "pass",
+      "overflow": false
+    },
+    {
+      "case": "the-tea",
+      "lang": "ar",
+      "images": 1,
+      "javascript": "pass",
+      "overflow": false
+    },
+    {
+      "case": "cadence",
+      "lang": "en",
+      "images": 1,
+      "javascript": "pass",
+      "overflow": false
+    },
+    {
+      "case": "cadence",
+      "lang": "ar",
+      "images": 1,
+      "javascript": "pass",
+      "overflow": false
+    }
+  ],
+  "total": 16,
+  "externalImages": "actual URLs sourced and licensed; external loading not verified due browser network restrictions"
+}
