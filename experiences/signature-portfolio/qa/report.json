@@ -1,0 +1,138 @@
+[
+  {
+    "route": "home",
+    "language": "en",
+    "width": 320,
+    "cards": 4,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "home",
+    "language": "en",
+    "width": 390,
+    "cards": 4,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "home",
+    "language": "en",
+    "width": 768,
+    "cards": 4,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "home",
+    "language": "en",
+    "width": 1440,
+    "cards": 4,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "jeddah-port",
+    "language": "en",
+    "width": 390,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "beyond-reality",
+    "language": "en",
+    "width": 390,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "the-tea",
+    "language": "en",
+    "width": 390,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "cadence",
+    "language": "en",
+    "width": 390,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "home",
+    "language": "ar",
+    "width": 320,
+    "cards": 4,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "home",
+    "language": "ar",
+    "width": 390,
+    "cards": 4,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "home",
+    "language": "ar",
+    "width": 768,
+    "cards": 4,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "home",
+    "language": "ar",
+    "width": 1440,
+    "cards": 4,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "jeddah-port",
+    "language": "ar",
+    "width": 390,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "beyond-reality",
+    "language": "ar",
+    "width": 390,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "the-tea",
+    "language": "ar",
+    "width": 390,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  },
+  {
+    "route": "cadence",
+    "language": "ar",
+    "width": 390,
+    "overflow": false,
+    "errors": [],
+    "pass": true
+  }
+]

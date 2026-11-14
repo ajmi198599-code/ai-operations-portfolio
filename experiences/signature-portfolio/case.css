@@ -19,3 +19,11 @@ html[lang=ar] .case-heading h1{font-family:var(--serif)}html[lang=ar] .case-lede
 .case-photo .photo-note{position:absolute;z-index:2;bottom:21px;inset-inline-start:24px;color:#fff;font:600 10px/1.7 var(--mono);letter-spacing:.09em}
 html[lang=ar] .case-photo .photo-note{letter-spacing:0;font-family:'Noto Sans Arabic',sans-serif}
 @media(max-width:600px){.case-visual-container{height:280px}.case-photo .photo-note{font-size:9px;bottom:13px;inset-inline-start:13px}}
+
+/* Verified product evidence — actual captured interface, not editorial photography. */
+.case-capture-section{background:var(--cream);padding:70px 0 35px}
+.case-capture{margin:0;border:1px solid #c5cdc2;background:#fff}
+.case-capture img{width:100%;height:auto;display:block;object-fit:contain;aspect-ratio:1060/617}
+.case-capture figcaption{padding:17px 24px;border-top:1px solid #c5cdc2;color:#5c6a60;font:500 11px/1.7 var(--mono);letter-spacing:.06em}
+html[lang=ar] .case-capture figcaption{font-family:'Noto Sans Arabic',sans-serif;letter-spacing:0}
+@media(max-width:600px){.case-capture-section{padding:32px 0 10px}.case-capture figcaption{padding:13px;font-size:10px}}

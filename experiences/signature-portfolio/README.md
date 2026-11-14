@@ -1,38 +1,30 @@
-# Mohammed Alajmi — Signature Portfolio v2
+# Mohammed Alajmi — Signature Portfolio, v4
 
-A source-led, bilingual, responsive personal portfolio for **Digital Intelligence & Experience Design**. Built in semantic HTML, CSS and vanilla JavaScript, without runtime JS dependencies. The site is deliberately separated from the existing AI Operations app under `experiences/signature-portfolio/` in GitHub.
+A bilingual personal portfolio for **Digital Intelligence & Experience Design**, emphasizing evidence and honest case-study presentation rather than stock images or simulated dashboards.
 
-## Features
+## Changes in v4
 
-- Personal-signature hero and revised mobile layout, with a restrained motion system.
-- English / Arabic support (`lang`, `dir`, persistent `?lang=` query) and Arabic-aware keyboard arrows in the three-perspective component.
-- Four shareable, static, bilingual case-study pages under `/work/<slug>/`.
-- Project filters, quick-view dialog, distinct *read case study* and *visit recorded deployment* links.
-- Functional email, LinkedIn, GitHub, and a mailto résumé-request contact action (no published phone number).
-- Link-preview artwork, sitemap, per-case page descriptions, semantic landmarks and focus outlines.
-- Separate preview artwork that is expressly marked *illustrative*; no project screenshot or invented metric is represented as a fact.
+- Removed stock hero imagery, unrelated photographs from project cards, and stock imagery from all four case studies.
+- Replaced hero art with substantive business/design/engineering focus areas.
+- Removed the duplicate process section and replaced the tabbed explanation with concise, readable static content.
+- Replaced decorative About section photography with an experience-led editorial statement.
+- Added genuine browser captures of the deployed THE TEA and Beyond Reality applications, dated 14 November 2026; their original image blobs are committed to GitHub. Other work remains text-led rather than using incomplete screenshots.
+- Retained English/Arabic RTL, separate case-study URLs, interactive filters, quick views, contact, and real deployment links.
 
-## Local development
+## Run locally
 
-Open a static server from this directory:
-
-```bash
+```sh
 python3 -m http.server 4173
 ```
 
-Homepage: http://localhost:4173/ — Arabic: http://localhost:4173/?lang=ar
+Open `/` for English, `/?lang=ar` for Arabic, and `/work/<slug>/` for case studies.
 
-## QA
+## Testing
 
-Run `python qa_v2.py` in an environment with Playwright and Chromium installed. The suite covers 320/360/390/768/1440 homepage rendering, English/Arabic case pages, dialogs, filters, RTL keyboard navigation, mobile menu, and email action. The test harness injects source into the browser when the runner restricts localhost and file URLs. It verifies layout and JavaScript behavior locally; it **does not** claim public Vercel access or real-device performance.
+Run `python test_v4.py` in an environment with Chromium and Playwright installed. Local browser test injection is used where browser networking to local files is restricted.
 
-## Before public portfolio promotion
+## Evidence policy
 
-- Replace conceptual diagrams with actual product screenshots, authorized originals, and substantiated project evidence.
-- Confirm the URL and anonymous access to every featured deployed project.
-- Finalize a current resume/CV PDF before offering direct download; for now a resume-request email is provided.
-- Run independent real-device Safari/Chrome tests, Lighthouse field/lab performance, and accessibility audit.
-- Check that the contact email and LinkedIn profile remain approved for public use.
-- Review and confirm the accuracy of every project case study.
+**No photographs of strangers and no illustrative dashboards are presented as work.** Project title treatments are simple typographic placeholders, not screenshots. The work links point to the actual Vercel deployments recorded in the user's connected account; anonymous accessibility of each deployment must be verified independently. THE TEA and Beyond Reality captures are linked in `verifiedCaptures` in `app.js`. Jeddah Port screenshot was excluded due to incomplete rendering; Cadence capture was not successful in the headless testing environment. Public access and real-device behavior still need independent confirmation.
 
-The latest portfolio is under a review branch and should not be merged into an unrelated production app without a separate code review.
+Do not claim business KPIs or performance results unless measured. Review client permissions before publishing any identifiable customers or proprietary business data.
