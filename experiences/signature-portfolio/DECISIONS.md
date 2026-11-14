@@ -26,3 +26,8 @@
 ## QA
 - Local desktop/mobile and English/Arabic interaction test results are in `qa/report.json`.
 - Responsive browser checks do not establish public-browser or cross-device performance certification.
+
+## Verified application images (not simulated)
+- `assets/captures/tea-live.webp`: THE TEA actual deployment at `https://the-tea-jeddah.vercel.app/`, browser HTTP 200, recorded 14 Nov 2026.
+- `assets/captures/beyond-live.webp`: Beyond Reality actual deployment at `https://beyond-reality-technology-showroom-nh5j5ik6m.vercel.app/`, browser HTTP 200, recorded 14 Nov 2026.
+- Jeddah Port and Cadence retain factual text-only presentations until reliable captures are available.

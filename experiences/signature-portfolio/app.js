@@ -175,7 +175,10 @@
 
   // Screenshot slots are populated only with captures of real deployed applications.
   // Until verified captures are available, use truthful typography with no simulated UI.
-  const verifiedCaptures = {};
+  const verifiedCaptures = {
+    'the-tea': './assets/captures/tea-live.webp',
+    'beyond-reality': './assets/captures/beyond-live.webp'
+  };
   function preview(project) {
     const src = verifiedCaptures[project.id];
     if (src) return `<span class="real-project-capture"><img src="${src}" loading="lazy" decoding="async" alt="${escapeHTML(project.name)} — captured application interface"><span class="capture-caption">${language === 'ar' ? 'لقطة من المشروع الفعلي' : 'ACTUAL APPLICATION CAPTURE'}</span></span>`;

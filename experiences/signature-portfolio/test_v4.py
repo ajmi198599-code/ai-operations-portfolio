@@ -36,6 +36,7 @@ with sync_playwright() as p:
             case_url=page.locator('.case-link').first.get_attribute('href')
             assert cardCount==4 and not overflow and not errors and photos==0 and isFocus,(lang,w,cardCount,overflow,errors,photos)
             assert page.locator('.about-credentials').count()==1
+            assert page.locator('.real-project-capture').count()==2  # actual source-backed captures only
             page.locator('[data-filter="product"]').click()
             assert page.locator('.project-card').count()==2
             page.locator('[data-filter="all"]').click()
@@ -61,6 +62,7 @@ with sync_playwright() as p:
             assert not page.locator('.case-photo').count()
             assert not page.locator('.case-visual-section').count()
             assert page.locator('.story-block').count()>=4
+            assert bool(page.locator('.case-capture img').count()) == (slug in ('the-tea','beyond-reality'))
             overflow=page.evaluate('document.documentElement.scrollWidth>innerWidth+1')
             assert not overflow and not errors,(slug,lang,overflow,errors)
             if lang=='ar' and slug=='the-tea':page.screenshot(path=str(out/'case-tea-ar-390.png'),full_page=True)
