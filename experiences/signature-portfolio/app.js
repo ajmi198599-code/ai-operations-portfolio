@@ -18,9 +18,13 @@
       workEyebrow: 'THE WORK / SELECTED PROJECTS', workTitle: 'Selected work<span class="accent-stop">.</span>',
       workIntro: 'A deliberate selection of experiments and working digital products — each with a different problem to solve.',
       filterAll: 'All work', filterIntelligence: 'Intelligence', filterExperience: 'Experience', filterProducts: 'Digital products',
-      workFootnote: 'Explore the thinking behind each project, the design decisions that shaped it, and the evidence still being verified.',
+      workFootnote: 'Every project links to its real deployment and a case study. No invented screenshots or outcomes.',
       practiceEyebrow: 'WHAT I BRING TO THE TABLE', practiceTitle: 'One practice.<br>Three perspectives.',
-      practiceIntro: 'I connect commercial questions, human needs, and technical delivery — rather than treating them as separate disciplines.',
+      practiceIntro: 'Business understanding, human needs and technical delivery belong in one conversation.',
+      practiceBusinessDesc: 'Start with the decision or problem, not the dashboard.',
+      practiceExperienceDesc: 'Make complicated interactions feel simple and intuitive.',
+      practiceEngineeringDesc: 'Build working solutions, test them, then improve them.',
+      aboutStatement: 'I bring an operational mindset to digital work: understand the stakes, design for people, and test what matters.',
       lensBusiness: 'Business understanding', lensExperience: 'Experience design', lensEngineering: 'Engineering mindset', lensPanelLabel: 'THE PERSPECTIVE',
       methodEyebrow: 'HOW I WORK', methodTitle: 'Clarity is a process<span class="accent-stop">.</span>',
       methodIntro: 'The work is iterative: understand, experiment, build, verify, then refine.',
@@ -32,7 +36,7 @@
       contactDesc: 'Exploring a challenge, a collaboration or a new professional opportunity? I’d be glad to connect.',
       connectLabel: 'EMAIL ME', connectLinkedin: 'Connect on LinkedIn', resumeRequest: 'Request my professional résumé', readFullCase: 'Read full case study', openLiveDemo: 'Visit project', proofLabel: 'See the detailed work', footerLine: 'Thoughtfully designed. Continually improving.', backToTop: 'BACK TO TOP ↑',
       footerCopyright: 'All rights reserved.', status: 'DEPLOYMENT RECORDED', viewCase: 'Explore case study', projectLink: 'Open recorded deployment',
-      publicNote: 'Public access and end-to-end functionality have not been independently confirmed.',
+      publicNote: 'Deployment records are available; full product verification remains in progress.',
       projectHeading: 'The project', challenge: 'The challenge', approach: 'Design approach', implementation: 'Implementation focus',
       verification: 'Verification status', limitations: 'Still to validate', linkDisclaimer: 'External deployment may require sign-in or be unavailable.',
       caseBack: 'Back to selected work', noteLabel: 'EDITORIAL PHOTO — NOT A PROJECT SCREENSHOT',
@@ -58,9 +62,13 @@
       workEyebrow: 'أعمال ومنتجات مختارة', workTitle: 'أعمال مختارة<span class="accent-stop">.</span>',
       workIntro: 'مجموعة منتقاة من التجارب والمنتجات الرقمية، لكل منها تحدٍّ مختلف نحاول معالجته.',
       filterAll: 'جميع الأعمال', filterIntelligence: 'الذكاء والتحليلات', filterExperience: 'التجارب', filterProducts: 'المنتجات الرقمية',
-      workFootnote: 'تعرّف على تحديات كل مشروع وخيارات التصميم وحالة التحقق من المخرجات.',
+      workFootnote: 'كل مشروع مرتبط بنسخته المنشورة ودراسة حالته، دون صور أو نتائج مختلقة.',
       practiceEyebrow: 'ما أقدمه من خبرات', practiceTitle: 'منهج واحد.<br>ثلاث زوايا.',
-      practiceIntro: 'أربط متطلبات الأعمال واحتياجات المستخدمين والتطبيق التقني، بدلًا من النظر إليها كتخصصات منفصلة.',
+      practiceIntro: 'أربط فهم الأعمال واحتياجات الناس بالتنفيذ التقني في مسار واضح.',
+      practiceBusinessDesc: 'أبدأ بالمشكلة والقرار، لا بالشكل أو الرسم البياني.',
+      practiceExperienceDesc: 'أحوّل التعقيد إلى تفاعلات سهلة وواضحة.',
+      practiceEngineeringDesc: 'أبني الحلول وأختبرها وأحسّنها بالدلائل.',
+      aboutStatement: 'أحمل خبرة تشغيلية إلى العمل الرقمي: أفهم التحديات، وأصمم للناس، وأختبر ما يهم.',
       lensBusiness: 'فهم الأعمال', lensExperience: 'تصميم التجارب', lensEngineering: 'منهج هندسي', lensPanelLabel: 'زاوية النظر',
       methodEyebrow: 'طريقة العمل', methodTitle: 'الوضوح يبدأ بمنهج<span class="accent-stop">.</span>',
       methodIntro: 'نفهم ونجرّب ونبني ونتحقق، ثم نُحسن باستمرار.',
@@ -72,7 +80,7 @@
       contactDesc: 'هل لديك تحدٍ أو فرصة تعاون أو دور مهني؟ يسعدني التواصل ومناقشة الأفكار.',
       connectLabel: 'راسلني', connectLinkedin: 'تواصل عبر لينكدإن', resumeRequest: 'اطلب سيرتي الذاتية المهنية', readFullCase: 'اقرأ دراسة الحالة الكاملة', openLiveDemo: 'زيارة المشروع', proofLabel: 'اكتشف تفاصيل المشروع', footerLine: 'تصميم مدروس. وتطوير مستمر.', backToTop: 'العودة للأعلى ↑',
       footerCopyright: 'جميع الحقوق محفوظة.', status: 'توجد نسخة منشورة', viewCase: 'اقرأ دراسة الحالة', projectLink: 'افتح رابط النشر',
-      publicNote: 'لم يُتحقق بعد بشكل مستقل من الإتاحة العامة واختبارات الوظائف الكاملة.',
+      publicNote: 'توجد سجلات نشر للمشاريع، ولا يزال التحقق الكامل من وظائفها جاريًا.',
       projectHeading: 'عن المشروع', challenge: 'التحدي', approach: 'المعالجة التصميمية', implementation: 'نطاق التنفيذ',
       verification: 'حالة التحقق', limitations: 'ما تبقى للتحقق', linkDisclaimer: 'قد يتطلب رابط النشر تسجيل الدخول أو لا يكون متاحًا للجميع.',
       caseBack: 'العودة إلى الأعمال', noteLabel: 'صورة فوتوغرافية توضيحية — ليست لقطة من المشروع',
@@ -157,32 +165,32 @@
     $('.menu-toggle').setAttribute('aria-label', isAr ? 'فتح القائمة' : 'Open menu');
     $('.contact-orb').setAttribute('aria-label', isAr ? 'أرسل بريدًا إلكترونيًا إلى محمد' : 'Send Mohammed an email');
     $('.filters').setAttribute('aria-label', isAr ? 'تصفية المشاريع' : 'Filter projects');
-    $('.lenses').setAttribute('aria-label', isAr ? 'منظورات العمل' : 'Explore design perspectives');
     $('#case-close').setAttribute('aria-label', isAr ? 'إغلاق دراسة الحالة' : 'Close case study');
-    renderProjects(); renderMethods(); selectLens($('[data-lens].is-active')?.dataset.lens || 'business');
+    renderProjects();
     const next = new URL(window.location.href); next.searchParams.set('lang', language);
     window.history.replaceState(window.history.state, '', next.pathname + next.search + next.hash);
     const slug = window.location.hash.match(/^#case-([a-z-]+)$/)?.[1];
     if (slug && $('#case-dialog').open) openCase(slug, false);
   }
 
-  const realPhotos = {
-    port: {src:'https://images.unsplash.com/photo-1769144256207-bc4bb75b29db?auto=format&fit=crop&w=1280&q=82', alt:'An aerial photograph of a working container terminal; editorial context, not a photograph of Jeddah Port', credit:'MARITIME CONTEXT / REAL PHOTOGRAPH'},
-    reality: {src:'https://images.unsplash.com/photo-1759050486852-fdfe2fdc7bea?auto=format&fit=crop&w=1280&q=82', alt:'Real contemporary retail interior with people and warm timber; editorial context, not the 3D showroom application', credit:'RETAIL CONTEXT / REAL PHOTOGRAPH'},
-    tea: {src:'https://images.unsplash.com/photo-1561267395-3783f8657ae8?auto=format&fit=crop&w=1280&q=82', alt:'A real photograph of tea being poured into a cup; editorial context, not the THE TEA website', credit:'TEA CULTURE / REAL PHOTOGRAPH'},
-    cadence: {src:'https://images.unsplash.com/photo-1699665235544-583d2ad22bfe?auto=format&fit=crop&w=1280&q=82', alt:'A real photograph of a person writing beside a laptop; editorial context, not a Cadence screenshot', credit:'LEARNING / REAL PHOTOGRAPH'}
-  };
-  function preview(theme) {
-    const photo = realPhotos[theme] || realPhotos.cadence;
-    return `<span class="editorial-visual"><img src="${photo.src}" alt="${escapeHTML(photo.alt)}" loading="lazy" decoding="async" width="960" height="650"><span class="editorial-visual-label">${language === 'ar' ? 'صورة فوتوغرافية توضيحية — ليست من المشروع' : photo.credit}</span></span>`;
+  // Screenshot slots are populated only with captures of real deployed applications.
+  // Until verified captures are available, use truthful typography with no simulated UI.
+  const verifiedCaptures = {};
+  function preview(project) {
+    const src = verifiedCaptures[project.id];
+    if (src) return `<span class="real-project-capture"><img src="${src}" loading="lazy" decoding="async" alt="${escapeHTML(project.name)} — captured application interface"><span class="capture-caption">${language === 'ar' ? 'لقطة من المشروع الفعلي' : 'ACTUAL APPLICATION CAPTURE'}</span></span>`;
+    return `<span class="project-identity-cover theme-${project.theme}">
+      <span class="identity-cover-top">${escapeHTML(project.index)} / ${escapeHTML(project.labels[language])}</span>
+      <strong>${escapeHTML(project.name)}</strong>
+      <span class="identity-cover-bottom">${language === 'ar' ? 'ملف مشروع فعلي · ٢٠٢٦' : 'REAL PROJECT RECORD · 2026'} <span aria-hidden="true">↗</span></span>
+    </span>`;
   }
   function renderProjects() {
     const active = $('.filter.is-active')?.dataset.filter || 'all';
     $('#project-grid').innerHTML = projects.filter(p => active === 'all' || p.category === active).map(p => `
       <article class="project-card reveal" data-project="${p.id}">
         <button class="project-image" type="button" data-open="${p.id}" aria-label="${escapeHTML(label('viewCase'))}: ${escapeHTML(p.name)}">
-          ${preview(p.theme)}<span class="project-image-corner" aria-hidden="true">↗</span>
-          <span class="visual-disclaimer">${escapeHTML(label('noteLabel'))}</span>
+          ${preview(p)}<span class="project-image-corner" aria-hidden="true">↗</span>
         </button>
         <div class="project-meta"><span>${escapeHTML(p.index)} / ${escapeHTML(p.labels[language])}</span><span>${p.year}</span></div>
         <div class="project-title-row"><h3>${escapeHTML(p.name)}</h3><button type="button" data-open="${p.id}" class="project-open" aria-label="${escapeHTML(label('viewCase'))}: ${escapeHTML(p.name)}">↗</button></div>
@@ -212,7 +220,7 @@
     return `<div class="case-kicker">${escapeHTML(p.index)} / ${escapeHTML(p.labels[language])} · ${p.year}</div>
       <h2 id="case-title">${escapeHTML(p.name)}</h2>
       <p class="case-deck">${escapeHTML(p.summary[language])}</p>
-      <div class="case-visual case-visual-${p.theme}">${preview(p.theme)}<span class="case-visual-note">${escapeHTML(label('noteLabel'))}</span></div>
+      <div class="case-proof-summary"><span>PROJECT ${escapeHTML(p.index)} / 2026</span><strong>${escapeHTML(p.name)}</strong><a href="${escapeHTML(p.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(label('projectLink'))} ↗</a></div>
       <div class="case-status"><span class="status-dot" aria-hidden="true"></span><span>${escapeHTML(label('status'))}</span><p>${escapeHTML(label('publicNote'))}</p></div>
       <div class="case-details">
         <section><span>01 — ${escapeHTML(label('challenge'))}</span><p>${escapeHTML(p.challenge[language])}</p></section>
@@ -268,16 +276,6 @@
     $$('.filter').forEach(other => {const on = other === button; other.classList.toggle('is-active', on); other.setAttribute('aria-pressed', String(on));});
     renderProjects();
   }));
-  $$('.lens').forEach(button => {
-    button.addEventListener('click', () => selectLens(button.dataset.lens));
-    button.addEventListener('keydown', event => {
-      if (!['ArrowRight','ArrowLeft','Home','End'].includes(event.key)) return;
-      event.preventDefault();
-      const tabs = $$('.lens'); const index = tabs.indexOf(button);
-      const nextIndex = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length-1 : (index + (event.key === 'ArrowRight' ? (document.dir === 'rtl' ? -1 : 1) : (document.dir === 'rtl' ? 1 : -1)) + tabs.length) % tabs.length;
-      tabs[nextIndex].focus(); selectLens(tabs[nextIndex].dataset.lens);
-    });
-  });
   document.addEventListener('click', event => {
     const opener = event.target.closest('[data-open]');
     if (opener) { lastCaseTrigger = opener; openCase(opener.dataset.open); }
