@@ -56,19 +56,6 @@ const wordDifference=(()=>{
 const practiceDates=new Set(store.attempts.map(a=>new Date(a.date).toLocaleDateString("en-CA")));
 let practiceStreak=0;const cursor=new Date();if(!practiceDates.has(cursor.toLocaleDateString("en-CA")))cursor.setDate(cursor.getDate()-1);
 while(practiceDates.has(cursor.toLocaleDateString("en-CA"))){practiceStreak++;cursor.setDate(cursor.getDate()-1)}
-const britishVoices=voices.filter(v=>v.lang.replace("_","-").toLowerCase().startsWith("en-gb"));
-const chosenVoice=britishVoices.find(v=>v.voiceURI===voiceURI)||britishVoices[0]||null;
-const wordDifference=(()=>{
-  if(!answer.trim())return {missing:[] as string[],added:[] as string[]};
-  const target=norm(line).split(" ").filter(Boolean),actual=norm(answer).split(" ").filter(Boolean);
-  const remaining=new Map<string,number>();for(const w of actual)remaining.set(w,(remaining.get(w)||0)+1);
-  const missing:string[]=[];for(const w of target){const count=remaining.get(w)||0;if(count)remaining.set(w,count-1);else missing.push(w)}
-  const added:string[]=[];for(const [word,count] of remaining)for(let i=0;i<count;i++)added.push(word);
-  return {missing,added};
-})();
-const practiceDates=new Set(store.attempts.map(a=>new Date(a.date).toLocaleDateString("en-CA")));
-let practiceStreak=0;const cursor=new Date();if(!practiceDates.has(cursor.toLocaleDateString("en-CA")))cursor.setDate(cursor.getDate()-1);
-while(practiceDates.has(cursor.toLocaleDateString("en-CA"))){practiceStreak++;cursor.setDate(cursor.getDate()-1)}
 const update=(patch:Partial<Store>)=>setStore(s=>({...s,...patch}));
 function choose(l:Lesson){stopPlayback();setMode(l.mode);setLessonId(l.id);setLineIndex(0);setAnswer("");setTab("practice");setMessage("");setAudioIssue("");}
 function next(){setLineIndex(i=>Math.min(i+1,selected.lines.length-1));setAnswer("");setMessage("");}
