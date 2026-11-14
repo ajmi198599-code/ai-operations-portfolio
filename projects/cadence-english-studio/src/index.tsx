@@ -25,16 +25,108 @@ const key="cadence.practice.v1";
 const norm=(s:string)=>s.toLowerCase().replace(/[^a-z0-9\s']/g," ").replace(/\s+/g," ").trim();
 function compare(a:string,b:string){const x=norm(a).split(" ").filter(Boolean),y=norm(b).split(" ").filter(Boolean);if(!x.length||!y.length)return null;const d=Array.from({length:x.length+1},()=>Array(y.length+1).fill(0));for(let i=0;i<=x.length;i++)d[i][0]=i;for(let j=0;j<=y.length;j++)d[0][j]=j;for(let i=1;i<=x.length;i++)for(let j=1;j<=y.length;j++)d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(x[i-1]===y[j-1]?0:1));return Math.max(0,Math.round((1-d[x.length][y.length]/Math.max(x.length,y.length))*100));}
 export default function Cadence(){
-const [store,setStore]=useState<Store>(initial);const [ready,setReady]=useState(false);const [lang,setLang]=useState<"ar"|"en">("ar");const [tab,setTab]=useState<"practice"|"library"|"progress"|"journal">("practice");const [mode,setMode]=useState<Mode>("presentation");const [lessonId,setLessonId]=useState("p1");const [lineIndex,setLineIndex]=useState(0);const [answer,setAnswer]=useState("");const [playing,setPlaying]=useState(false);const [recording,setRecording]=useState(false);const [audioUrl,setAudioUrl]=useState("");const [message,setMessage]=useState("");const [rate,setRate]=useState(.88);const [draft,setDraft]=useState({title:"",description:"",text:"",tip:""});const [editId,setEditId]=useState<string|null>(null);const recorder=useRef<any>(null);const pieces=useRef<Blob[]>([]);const speech=useRef<any>(null);const [recognising,setRecognising]=useState(false);
+const [store,setStore]=useState<Store>(initial);const [ready,setReady]=useState(false);const [lang,setLang]=useState<"ar"|"en">("ar");const [tab,setTab]=useState<"practice"|"library"|"progress"|"journal">("practice");const [mode,setMode]=useState<Mode>("presentation");const [lessonId,setLessonId]=useState("p1");const [lineIndex,setLineIndex]=useState(0);const [answer,setAnswer]=useState("");const [playing,setPlaying]=useState(false);const [recording,setRecording]=useState(false);const [audioUrl,setAudioUrl]=useState("");const [message,setMessage]=useState("");const [rate,setRate]=useState(.88);const [draft,setDraft]=useState({title:"",description:"",text:"",tip:""});const [editId,setEditId]=useState<string|null>(null);const recorder=useRef<MediaRecorder|null>(null);const activeStream=useRef<MediaStream|null>(null);const pieces=useRef<Blob[]>([]);const speech=useRef<any>(null);const utterance=useRef<SpeechSynthesisUtterance|null>(null);
+const [recognising,setRecognising]=useState(false);const [voices,setVoices]=useState<SpeechSynthesisVoice[]>([]);const [voiceURI,setVoiceURI]=useState("");
+const [audioExtension,setAudioExtension]=useState("webm");const [recordSeconds,setRecordSeconds]=useState(0);const [audioIssue,setAudioIssue]=useState("");
 useEffect(()=>{try{const saved=localStorage.getItem(key);if(saved){const obj=JSON.parse(saved);setStore({...initial,...obj,lessons:Array.isArray(obj.lessons)?obj.lessons:defaults});}const locale=localStorage.getItem("cadence.lang");if(locale==="en")setLang("en");}catch{}setReady(true);},[]);
 useEffect(()=>{if(ready)localStorage.setItem(key,JSON.stringify(store));},[store,ready]);useEffect(()=>{if(ready)localStorage.setItem("cadence.lang",lang)},[lang,ready]);
+useEffect(()=>{
+  if(!("speechSynthesis" in window))return;
+  const synth=window.speechSynthesis;
+  const loadVoices=()=>setVoices(synth.getVoices());
+  loadVoices();
+  synth.addEventListener?.("voiceschanged",loadVoices);
+  return()=>{synth.removeEventListener?.("voiceschanged",loadVoices);synth.cancel();utterance.current=null};
+},[]);
+useEffect(()=>{if(!recording)return;const timer=window.setInterval(()=>setRecordSeconds(s=>s+1),1000);return()=>window.clearInterval(timer)},[recording]);
+useEffect(()=>()=>{if(audioUrl)URL.revokeObjectURL(audioUrl)},[audioUrl]);
+useEffect(()=>()=>{try{speech.current?.abort?.()}catch{};try{if(recorder.current?.state==="recording")recorder.current.stop()}catch{};activeStream.current?.getTracks().forEach(track=>track.stop())},[]);
+useEffect(()=>{window.speechSynthesis?.cancel();utterance.current=null;setPlaying(false)},[line]);
 const ar=lang==="ar";const t=(a:string,e:string)=>ar?a:e;const selected=store.lessons.find(l=>l.id===lessonId)||store.lessons[0];const line=selected?.lines[lineIndex]||"";const result=answer.trim()?compare(line,answer):null;
+const britishVoices=voices.filter(v=>v.lang.replace("_","-").toLowerCase().startsWith("en-gb"));
+const chosenVoice=britishVoices.find(v=>v.voiceURI===voiceURI)||britishVoices[0]||null;
+const wordDifference=(()=>{
+  if(!answer.trim())return {missing:[] as string[],added:[] as string[]};
+  const target=norm(line).split(" ").filter(Boolean),actual=norm(answer).split(" ").filter(Boolean);
+  const remaining=new Map<string,number>();for(const w of actual)remaining.set(w,(remaining.get(w)||0)+1);
+  const missing:string[]=[];for(const w of target){const count=remaining.get(w)||0;if(count)remaining.set(w,count-1);else missing.push(w)}
+  const added:string[]=[];for(const [word,count] of remaining)for(let i=0;i<count;i++)added.push(word);
+  return {missing,added};
+})();
+const practiceDates=new Set(store.attempts.map(a=>new Date(a.date).toLocaleDateString("en-CA")));
+let practiceStreak=0;const cursor=new Date();if(!practiceDates.has(cursor.toLocaleDateString("en-CA")))cursor.setDate(cursor.getDate()-1);
+while(practiceDates.has(cursor.toLocaleDateString("en-CA"))){practiceStreak++;cursor.setDate(cursor.getDate()-1)}
 const update=(patch:Partial<Store>)=>setStore(s=>({...s,...patch}));
-function choose(l:Lesson){setMode(l.mode);setLessonId(l.id);setLineIndex(0);setAnswer("");setTab("practice");setMessage("");}
+function choose(l:Lesson){stopPlayback();setMode(l.mode);setLessonId(l.id);setLineIndex(0);setAnswer("");setTab("practice");setMessage("");setAudioIssue("");}
 function next(){setLineIndex(i=>Math.min(i+1,selected.lines.length-1));setAnswer("");setMessage("");}
-function speak(){if(typeof window==="undefined"||!window.speechSynthesis){setMessage(t("التشغيل الصوتي غير متاح هنا.","Speech playback is unavailable."));return;}window.speechSynthesis.cancel();const utter=new SpeechSynthesisUtterance(line);utter.lang="en-GB";utter.rate=rate;utter.pitch=1;const voices=window.speechSynthesis.getVoices();const british=voices.find(v=>v.lang.toLowerCase().startsWith("en-gb"));if(british)utter.voice=british;utter.onstart=()=>setPlaying(true);utter.onend=()=>setPlaying(false);utter.onerror=()=>setPlaying(false);window.speechSynthesis.speak(utter);}
-async function record(){if(recording){recorder.current?.stop();setRecording(false);return;}try{if(!navigator.mediaDevices?.getUserMedia||typeof MediaRecorder==="undefined")throw new Error("unsupported");const stream=await navigator.mediaDevices.getUserMedia({audio:true});const r=new MediaRecorder(stream);pieces.current=[];r.ondataavailable=e=>{if(e.data.size)pieces.current.push(e.data)};r.onstop=()=>{const blob=new Blob(pieces.current,{type:r.mimeType||"audio/webm"});setAudioUrl(old=>{if(old)URL.revokeObjectURL(old);return URL.createObjectURL(blob)});stream.getTracks().forEach(tr=>tr.stop())};r.start();recorder.current=r;setRecording(true);setMessage(t("جاري التسجيل. اضغط مجددًا للإيقاف.","Recording. Tap again to stop."));}catch{setMessage(t("تعذر تشغيل الميكروفون. اسمح بالوصول أو جرّب متصفحًا داعمًا.","Microphone unavailable. Allow access or use a supported browser."));}}
-function transcribe(){const SpeechRecognition=(window as any).SpeechRecognition||(window as any).webkitSpeechRecognition;if(!SpeechRecognition){setMessage(t("التفريغ الصوتي غير مدعوم في هذا المتصفح. اكتب إجابتك يدويًا.","Speech recognition is unsupported here. Type your answer instead."));return;}try{const rec=new SpeechRecognition();rec.lang="en-GB";rec.interimResults=false;rec.onresult=(e:any)=>{setAnswer(e.results[0][0].transcript);setRecognising(false)};rec.onerror=()=>{setRecognising(false);setMessage(t("لم ينجح التفريغ الصوتي، جرّب مرة أخرى.","Recognition failed; please try again."))};rec.onend=()=>setRecognising(false);rec.start();speech.current=rec;setRecognising(true)}catch{setMessage(t("تعذر بدء التعرف على الكلام.","Unable to start speech recognition."));}}
+function stopPlayback(){window.speechSynthesis?.cancel();utterance.current=null;setPlaying(false)}
+function speak(){
+  if(!("speechSynthesis" in window)){setAudioIssue(t("هذا المتصفح لا يدعم الاستماع الصوتي.","This browser does not support speech playback."));return}
+  if(playing){stopPlayback();return}
+  try{
+    const synth=window.speechSynthesis;synth.cancel();
+    const phrase=new SpeechSynthesisUtterance(line);phrase.lang="en-GB";phrase.rate=rate;phrase.pitch=1;
+    const available=synth.getVoices();const british=available.find(v=>v.voiceURI===voiceURI&&v.lang.toLowerCase().replace("_","-").startsWith("en-gb"))
+      ||available.find(v=>v.lang.toLowerCase().replace("_","-").startsWith("en-gb"));
+    if(british)phrase.voice=british;
+    utterance.current=phrase;
+    phrase.onstart=()=>{if(utterance.current===phrase){setPlaying(true);setAudioIssue("")}};
+    phrase.onend=()=>{if(utterance.current===phrase){setPlaying(false);utterance.current=null}};
+    phrase.onerror=e=>{if(utterance.current===phrase){setPlaying(false);utterance.current=null;if(e.error!=="canceled"&&e.error!=="interrupted")setAudioIssue(t("تعذر تشغيل الصوت. جرّب اختيار صوت آخر أو استخدم متصفحًا محدثًا.","Audio playback failed. Try another voice or an updated browser."))}};
+    synth.speak(phrase);
+    if(!british)setAudioIssue(t("لا يوجد صوت بريطاني مثبت؛ سيستخدم الجهاز الصوت المتاح.","No British voice is installed; your device will use an available voice."));
+  }catch{setPlaying(false);setAudioIssue(t("حدث خطأ عند تشغيل الصوت.","There was a problem starting playback."))}
+}
+async function record(){
+  if(recording){try{if(recorder.current?.state==="recording")recorder.current.stop()}catch{};setRecording(false);return}
+  if(recognising){setAudioIssue(t("أوقف الإملاء المباشر أولًا قبل التسجيل.","Stop live dictation before recording."));return}
+  setAudioIssue("");stopPlayback();
+  let stream:MediaStream|null=null;
+  try{
+    if(!navigator.mediaDevices?.getUserMedia||typeof MediaRecorder==="undefined")throw new Error("unsupported");
+    stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true}});
+    activeStream.current=stream;
+    const supported=["audio/mp4","audio/webm;codecs=opus","audio/webm","audio/ogg;codecs=opus"].find(format=>MediaRecorder.isTypeSupported?.(format));
+    const r=supported?new MediaRecorder(stream,{mimeType:supported}):new MediaRecorder(stream);
+    pieces.current=[];recorder.current=r;setRecordSeconds(0);
+    r.ondataavailable=e=>{if(e.data.size>0)pieces.current.push(e.data)};
+    r.onerror=()=>setAudioIssue(t("توقف التسجيل بسبب خطأ من المتصفح.","Recording stopped due to a browser error."));
+    r.onstop=()=>{
+      stream?.getTracks().forEach(track=>track.stop());activeStream.current=null;setRecording(false);
+      const format=r.mimeType||supported||"audio/webm";
+      const blob=new Blob(pieces.current,{type:format});
+      if(blob.size===0){setAudioIssue(t("لم يُحفظ أي صوت. أعد المحاولة بعد منح إذن الميكروفون.","No audio was captured. Check microphone permission and try again."));return}
+      const extension=format.includes("mp4")?"m4a":format.includes("ogg")?"ogg":"webm";
+      setAudioExtension(extension);
+      setAudioUrl(old=>{if(old)URL.revokeObjectURL(old);return URL.createObjectURL(blob)});
+      setMessage(t("تسجيلك جاهز للاستماع والمراجعة.","Your recording is ready for replay."));
+    };
+    r.start(1000);setRecording(true);setMessage(t("يسجّل الآن. اضغط على زر الإيقاف عند الانتهاء.","Recording now. Tap Stop when you finish."));
+  }catch(e){
+    stream?.getTracks().forEach(track=>track.stop());activeStream.current=null;setRecording(false);
+    const name=e instanceof DOMException?e.name:"";
+    setAudioIssue(name==="NotAllowedError"||name==="PermissionDeniedError"
+      ?t("تم رفض إذن الميكروفون. افتح إعدادات الموقع واسمح بالوصول، ثم أعد المحاولة.","Microphone access was denied. Allow permission in your browser settings and retry.")
+      :name==="NotFoundError"?t("لم يُعثر على ميكروفون متصل بالجهاز.","No microphone was found on this device.")
+      :t("التسجيل غير متاح في هذا المتصفح أو السياق. استخدم HTTPS ومتصفحًا محدثًا.","Recording is unavailable here. Use HTTPS and an updated browser."));
+  }
+}
+function transcribe(){
+  if(recognising){speech.current?.stop?.();setRecognising(false);return}
+  if(recording){setAudioIssue(t("أوقف التسجيل قبل تشغيل الإملاء المباشر.","Stop recording before starting dictation."));return}
+  const Recognition=(window as any).SpeechRecognition||(window as any).webkitSpeechRecognition;
+  if(!Recognition){setAudioIssue(t("الإملاء المباشر غير مدعوم في هذا المتصفح. يمكنك كتابة ما قلت يدويًا.","Live dictation is not supported here. You can type your response manually."));return}
+  stopPlayback();setAudioIssue("");
+  try{
+    const rec=new Recognition();rec.lang="en-GB";rec.interimResults=false;rec.continuous=false;rec.maxAlternatives=1;speech.current=rec;
+    rec.onresult=(e:any)=>{const transcript=Array.from(e.results as any).map((result:any)=>result[0].transcript).join(" ");setAnswer(transcript);setAudioIssue("")};
+    rec.onerror=(e:any)=>{setRecognising(false);setAudioIssue(e.error==="not-allowed"
+      ?t("اسمح باستخدام الميكروفون لتفعيل الإملاء.","Allow microphone access to enable dictation.")
+      :t("تعذر التعرّف على الكلام. اكتب النص يدويًا أو أعد المحاولة.","Speech recognition failed. Type your answer or try again."))};
+    rec.onend=()=>{setRecognising(false);speech.current=null};
+    rec.start();setRecognising(true);
+  }catch{setRecognising(false);setAudioIssue(t("تعذر بدء الإملاء المباشر على هذا الجهاز.","Live dictation could not be started on this device."))}
+}
 function saveAttempt(){if(!answer.trim())return;const entry:Attempt={id:String(Date.now()),date:new Date().toISOString(),lessonId:selected.id,line,transcript:answer.trim(),similarity:result,notes:""};update({attempts:[entry,...store.attempts]});setMessage(t("حُفظت المحاولة في سجل التقدم.","Attempt saved to progress."));}
 function saveLesson(){if(!draft.title.trim()||!draft.text.trim()){setMessage(t("اكتب عنوان التمرين وجملة واحدة على الأقل.","Please add a title and one sentence."));return;}const lines=draft.text.split("\n").map(x=>x.trim()).filter(Boolean);const lesson:Lesson={id:editId||"custom-"+Date.now(),mode,title:draft.title.trim(),description:draft.description.trim(),lines,tip:draft.tip.trim()};update({lessons:editId?store.lessons.map(x=>x.id===editId?lesson:x):[...store.lessons,lesson]});setDraft({title:"",description:"",text:"",tip:""});setEditId(null);setMessage(t("حُفظ التمرين.","Lesson saved."));}
 function edit(l:Lesson){setMode(l.mode);setDraft({title:l.title,description:l.description,text:l.lines.join("\n"),tip:l.tip});setEditId(l.id);setTab("library");}
