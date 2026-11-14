@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Mohammed Alajmi monogram">
+  <rect width="64" height="64" rx="13" fill="#111916"/>
+  <g transform="skewX(-9)" fill="none" stroke="#d2b98d" stroke-width="4" stroke-linecap="square">
+    <path d="M20 43V29"/>
+    <path d="M31 43V18"/>
+    <path d="M42 43V25"/>
+  </g>
+</svg>
