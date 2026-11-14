@@ -41,7 +41,7 @@ useEffect(()=>{
 useEffect(()=>{if(!recording)return;const timer=window.setInterval(()=>setRecordSeconds(s=>s+1),1000);return()=>window.clearInterval(timer)},[recording]);
 useEffect(()=>()=>{if(audioUrl)URL.revokeObjectURL(audioUrl)},[audioUrl]);
 useEffect(()=>()=>{try{speech.current?.abort?.()}catch{};try{if(recorder.current?.state==="recording")recorder.current.stop()}catch{};activeStream.current?.getTracks().forEach(track=>track.stop())},[]);
-useEffect(()=>{window.speechSynthesis?.cancel();utterance.current=null;setPlaying(false)},[line]);
+useEffect(()=>{window.speechSynthesis?.cancel();utterance.current=null;setPlaying(false)},[lessonId,lineIndex]);
 const ar=lang==="ar";const t=(a:string,e:string)=>ar?a:e;const selected=store.lessons.find(l=>l.id===lessonId)||store.lessons[0];const line=selected?.lines[lineIndex]||"";const result=answer.trim()?compare(line,answer):null;
 const britishVoices=voices.filter(v=>v.lang.replace("_","-").toLowerCase().startsWith("en-gb"));
 const chosenVoice=britishVoices.find(v=>v.voiceURI===voiceURI)||britishVoices[0]||null;
