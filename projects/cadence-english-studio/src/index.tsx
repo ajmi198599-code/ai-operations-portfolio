@@ -1,6 +1,5 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
-import "../cadence.css";
+import "./cadence.css";
 
 type Mode = "casual"|"presentation"|"interview"|"literary";
 type Lesson = {id:string;mode:Mode;title:string;description:string;lines:string[];tip:string};
@@ -25,8 +24,7 @@ const initial:Store={lessons:defaults,attempts:[],favourites:[],notes:"",mistake
 const key="cadence.practice.v1";
 const norm=(s:string)=>s.toLowerCase().replace(/[^a-z0-9\s']/g," ").replace(/\s+/g," ").trim();
 function compare(a:string,b:string){const x=norm(a).split(" ").filter(Boolean),y=norm(b).split(" ").filter(Boolean);if(!x.length||!y.length)return null;const d=Array.from({length:x.length+1},()=>Array(y.length+1).fill(0));for(let i=0;i<=x.length;i++)d[i][0]=i;for(let j=0;j<=y.length;j++)d[0][j]=j;for(let i=1;i<=x.length;i++)for(let j=1;j<=y.length;j++)d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(x[i-1]===y[j-1]?0:1));return Math.max(0,Math.round((1-d[x.length][y.length]/Math.max(x.length,y.length))*100));}
-export const Route=createFileRoute("/")({component:Cadence});
-function Cadence(){
+export default function Cadence(){
 const [store,setStore]=useState<Store>(initial);const [ready,setReady]=useState(false);const [lang,setLang]=useState<"ar"|"en">("ar");const [tab,setTab]=useState<"practice"|"library"|"progress"|"journal">("practice");const [mode,setMode]=useState<Mode>("presentation");const [lessonId,setLessonId]=useState("p1");const [lineIndex,setLineIndex]=useState(0);const [answer,setAnswer]=useState("");const [playing,setPlaying]=useState(false);const [recording,setRecording]=useState(false);const [audioUrl,setAudioUrl]=useState("");const [message,setMessage]=useState("");const [rate,setRate]=useState(.88);const [draft,setDraft]=useState({title:"",description:"",text:"",tip:""});const [editId,setEditId]=useState<string|null>(null);const recorder=useRef<any>(null);const pieces=useRef<Blob[]>([]);const speech=useRef<any>(null);const [recognising,setRecognising]=useState(false);
 useEffect(()=>{try{const saved=localStorage.getItem(key);if(saved){const obj=JSON.parse(saved);setStore({...initial,...obj,lessons:Array.isArray(obj.lessons)?obj.lessons:defaults});}const locale=localStorage.getItem("cadence.lang");if(locale==="en")setLang("en");}catch{}setReady(true);},[]);
 useEffect(()=>{if(ready)localStorage.setItem(key,JSON.stringify(store));},[store,ready]);useEffect(()=>{if(ready)localStorage.setItem("cadence.lang",lang)},[lang,ready]);
