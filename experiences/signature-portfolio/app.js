@@ -35,7 +35,7 @@
       publicNote: 'Public access and end-to-end functionality have not been independently confirmed.',
       projectHeading: 'The project', challenge: 'The challenge', approach: 'Design approach', implementation: 'Implementation focus',
       verification: 'Verification status', limitations: 'Still to validate', linkDisclaimer: 'External deployment may require sign-in or be unavailable.',
-      caseBack: 'Back to selected work', noteLabel: 'ILLUSTRATIVE INTERFACE STUDY — NOT A SCREENSHOT',
+      caseBack: 'Back to selected work', noteLabel: 'EDITORIAL PHOTO — NOT A PROJECT SCREENSHOT',
       lensContent: {
         business: { title: 'Start with the real problem.', description: 'Understand the stakeholders, operational constraints, and decisions an experience should support — before deciding what it should look like.', tags: ['Problem framing', 'Decision value', 'Evidence'] },
         experience: { title: 'Make complexity approachable.', description: 'Design clear navigation, readable hierarchies, and calm interactions so people can accomplish something useful without learning the interface first.', tags: ['Information architecture', 'Accessibility', 'User journeys'] },
@@ -75,7 +75,7 @@
       publicNote: 'لم يُتحقق بعد بشكل مستقل من الإتاحة العامة واختبارات الوظائف الكاملة.',
       projectHeading: 'عن المشروع', challenge: 'التحدي', approach: 'المعالجة التصميمية', implementation: 'نطاق التنفيذ',
       verification: 'حالة التحقق', limitations: 'ما تبقى للتحقق', linkDisclaimer: 'قد يتطلب رابط النشر تسجيل الدخول أو لا يكون متاحًا للجميع.',
-      caseBack: 'العودة إلى الأعمال', noteLabel: 'تصوير مفاهيمي للواجهة — ليس لقطة شاشة فعلية',
+      caseBack: 'العودة إلى الأعمال', noteLabel: 'صورة فوتوغرافية توضيحية — ليست لقطة من المشروع',
       lensContent: {
         business: { title: 'ابدأ بالمشكلة الحقيقية.', description: 'افهم أصحاب المصلحة والقيود التشغيلية والقرارات التي ينبغي أن تدعمها التجربة قبل اختيار الشكل البصري.', tags: ['تحديد المشكلة', 'قيمة القرار', 'البيانات'] },
         experience: { title: 'اجعل التعقيد مفهومًا.', description: 'صمّم تنقلًا واضحًا وتسلسلًا بصريًا مقروءًا وتفاعلات هادئة تساعد المستخدم دون أن تفرض عليه تعلم الواجهة.', tags: ['بنية المعلومات', 'إمكانية الوصول', 'رحلة المستخدم'] },
@@ -166,14 +166,16 @@
     if (slug && $('#case-dialog').open) openCase(slug, false);
   }
 
+  const realPhotos = {
+    port: {src:'https://images.unsplash.com/photo-1769144256207-bc4bb75b29db?auto=format&fit=crop&w=1280&q=82', alt:'An aerial photograph of a working container terminal; editorial context, not a photograph of Jeddah Port', credit:'MARITIME CONTEXT / REAL PHOTOGRAPH'},
+    reality: {src:'https://images.unsplash.com/photo-1759050486852-fdfe2fdc7bea?auto=format&fit=crop&w=1280&q=82', alt:'Real contemporary retail interior with people and warm timber; editorial context, not the 3D showroom application', credit:'RETAIL CONTEXT / REAL PHOTOGRAPH'},
+    tea: {src:'https://images.unsplash.com/photo-1561267395-3783f8657ae8?auto=format&fit=crop&w=1280&q=82', alt:'A real photograph of tea being poured into a cup; editorial context, not the THE TEA website', credit:'TEA CULTURE / REAL PHOTOGRAPH'},
+    cadence: {src:'https://images.unsplash.com/photo-1699665235544-583d2ad22bfe?auto=format&fit=crop&w=1280&q=82', alt:'A real photograph of a person writing beside a laptop; editorial context, not a Cadence screenshot', credit:'LEARNING / REAL PHOTOGRAPH'}
+  };
   function preview(theme) {
-    /* All compositions here are coded visual studies, not purported screenshots. */
-    if (theme === 'port') return `<div class="preview-port"><div class="port-top"><span>PORT INTELLIGENCE</span><span>OVERVIEW / 2026</span></div><div class="port-columns"><div class="port-side"><i></i><i></i><i></i></div><div class="port-chart"><div class="port-ruler"></div><div class="port-bars"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div><div class="port-legend"><span></span><span></span><span></span></div></div></div></div>`;
-    if (theme === 'reality') return `<div class="preview-reality"><div class="reality-ceiling"></div><div class="reality-room"><div class="reality-wall one"></div><div class="reality-wall two"></div><div class="reality-floor"></div><div class="reality-plinth"><div class="reality-product"></div></div></div><span class="reality-label">BEYOND<br><em>REALITY</em></span><span class="reality-coordinates">SPATIAL / 03</span></div>`;
-    if (theme === 'tea') return `<div class="preview-tea"><div class="tea-label">THE TEA <span>ذا شاهي</span></div><div class="tea-ring one"></div><div class="tea-ring two"></div><div class="tea-cup"><div class="tea-liquid"></div><div class="tea-handle"></div></div><div class="tea-caption">A MOMENT, STEEPED IN CULTURE.</div></div>`;
-    return `<div class="preview-cadence"><div class="cadence-menu">CADENCE <span>BRITISH ENGLISH LAB</span></div><div class="cadence-sound">${Array.from({ length: 25 }, (_, i) => `<span style="height:${22 + ((i * 37 + 13) % 80)}%"></span>`).join('')}</div><div class="cadence-btm"><span>LISTEN</span><span>REPEAT</span><span>REFINE</span></div></div>`;
+    const photo = realPhotos[theme] || realPhotos.cadence;
+    return `<span class="editorial-visual"><img src="${photo.src}" alt="${escapeHTML(photo.alt)}" loading="lazy" decoding="async" width="960" height="650"><span class="editorial-visual-label">${language === 'ar' ? 'صورة فوتوغرافية توضيحية — ليست من المشروع' : photo.credit}</span></span>`;
   }
-
   function renderProjects() {
     const active = $('.filter.is-active')?.dataset.filter || 'all';
     $('#project-grid').innerHTML = projects.filter(p => active === 'all' || p.category === active).map(p => `
